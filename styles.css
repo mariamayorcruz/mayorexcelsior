@@ -2938,6 +2938,264 @@ h3 {
   }
 }
 
+/* In-page gallery: compact thumbnails; full size in lightbox (click the photo). */
+.gallery-section .gallery-item--compare .gallery-ba,
+.gallery-section .gallery-item--still .gallery-com-still {
+  aspect-ratio: auto;
+  height: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.gallery-section .gallery-item--compare .ba-handle {
+  cursor: ew-resize;
+}
+
+@media (max-width: 600px) {
+  .gallery-section .gallery-item--compare .gallery-ba,
+  .gallery-section .gallery-item--still .gallery-com-still {
+    height: 150px;
+    max-height: 150px;
+  }
+}
+
+/* Smaller logo on thumbnails; lightbox uses larger .gallery-lightbox-img-wrap::after. */
+.gallery-section .gallery-ba--real .ba-after::before,
+.gallery-section .gallery-ba--real .ba-before::before {
+  width: 72px !important;
+  height: 45px !important;
+  inset: auto 8px 8px auto !important;
+}
+
+.gallery-section .gallery-item--still .gallery-com-still::after {
+  width: 72px;
+  height: 45px;
+  inset: auto 8px 8px auto;
+}
+
+/* Real residential gallery photos with logo watermark and enlarge view. */
+.gallery-slider-grid {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+  gap: 1.35rem !important;
+}
+
+.gallery-item--compare {
+  align-items: stretch;
+}
+
+.gallery-ba--real .ba-after,
+.gallery-ba--real .ba-before {
+  isolation: isolate;
+}
+
+.gallery-ba--real .ba-after img,
+.gallery-ba--real .ba-before img {
+  filter: none !important;
+}
+
+.gallery-ba--real .ba-before::after,
+.gallery-ba--real .ba-before .ba-floor-dirt,
+.gallery-ba--real .ba-before .ba-clutter {
+  display: none !important;
+}
+
+.gallery-ba--real .ba-after::before,
+.gallery-ba--real .ba-before::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: auto 12px 12px auto !important;
+  z-index: 6 !important;
+  width: 145px !important;
+  height: 90px !important;
+  border: 0;
+  border-radius: 0;
+  background: transparent url("logo.png?v=10") center / contain no-repeat !important;
+  box-shadow: none;
+  mix-blend-mode: normal !important;
+  opacity: 0.72 !important;
+  filter: drop-shadow(0 5px 12px rgba(0, 0, 0, 0.32));
+  pointer-events: none;
+}
+
+.gallery-ba--real .ba-after::after {
+  z-index: 3;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.1), transparent 36%),
+    linear-gradient(180deg, transparent 58%, rgba(7, 17, 31, 0.08));
+}
+
+/* Keyboard focus: figures open lightbox on Enter/Space. */
+.gallery-section figure[data-lightbox-before]:focus-visible {
+  outline: 2px solid rgba(212, 184, 106, 0.88);
+  outline-offset: 3px;
+}
+
+body.gallery-lightbox-open {
+  overflow: hidden;
+}
+
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(7, 17, 31, 0.82);
+  backdrop-filter: blur(12px);
+}
+
+.gallery-lightbox.is-open {
+  display: flex;
+}
+
+.gallery-lightbox-panel {
+  width: min(1180px, 100%);
+  max-height: calc(100vh - 40px);
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: #07111f;
+  color: #ffffff;
+  padding: clamp(18px, 3vw, 28px);
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.45);
+}
+
+.gallery-lightbox-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.gallery-lightbox-kicker {
+  margin: 0 0 6px;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.gallery-lightbox-header h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  line-height: 1.15;
+}
+
+.gallery-lightbox-close {
+  flex: 0 0 auto;
+  min-height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  padding: 0 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.gallery-lightbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.gallery-lightbox-figure {
+  margin: 0;
+}
+
+.gallery-lightbox-photo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: min(68vh, 640px);
+  overflow: visible;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Shrink-wrapped box matches the real image area so the watermark isn't on letterboxed margins. */
+.gallery-lightbox-img-wrap {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  max-height: min(68vh, 640px);
+  line-height: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery-lightbox-img-wrap img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: min(68vh, 640px);
+  object-fit: contain;
+}
+
+.gallery-lightbox-img-wrap::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 200px;
+  height: 122px;
+  border: 0;
+  border-radius: 0;
+  background: transparent url("logo.png?v=10") center / contain no-repeat;
+  box-shadow: none;
+  opacity: 0.76;
+  filter: drop-shadow(0 7px 16px rgba(0, 0, 0, 0.34));
+  pointer-events: none;
+}
+
+.gallery-lightbox-figure figcaption {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 850;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .gallery-slider-grid,
+  .gallery-lightbox-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .gallery-lightbox {
+    padding: 10px;
+  }
+
+  .gallery-lightbox-panel {
+    max-height: calc(100vh - 20px);
+    padding: 16px;
+  }
+
+  .gallery-lightbox-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .gallery-lightbox-close {
+    width: 100%;
+  }
+
+  .gallery-lightbox-photo {
+    min-height: 55vh;
+  }
+
+  .gallery-lightbox-img-wrap,
+  .gallery-lightbox-img-wrap img {
+    max-height: 55vh;
+  }
+}
+
 /* ============================================================
    MAYOR EXCELSIOR — Calculadora de Precios CSS
    Pega esto al final de styles.css
@@ -3467,4 +3725,112 @@ h3 {
 
 .ba-label-before {
   color: #999 !important;
+}
+
+.gallery-com-intro {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #666 !important;
+  max-width: 40rem;
+  margin: 0 auto 1.35rem;
+  text-align: center;
+}
+
+.gallery-com-extra {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: #666 !important;
+  max-width: 40rem;
+  margin: 0.5rem auto 1.15rem;
+  text-align: center;
+}
+
+.gallery-com-section-label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(23, 57, 99, 0.75);
+  text-align: center;
+  margin: 1.75rem 0 1rem;
+}
+
+/* Single before + single after: side by side to save vertical space. */
+.gallery-com-pairrow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 1.35rem;
+  max-width: min(920px, 100%);
+  margin: 0 auto;
+  align-items: start;
+}
+
+.gallery-com-pairrow-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.gallery-com-pairrow .gallery-com-section-label {
+  margin: 0 0 0.35rem;
+}
+
+@media (max-width: 640px) {
+  .gallery-com-pairrow {
+    grid-template-columns: 1fr;
+  }
+}
+.gallery-item.gallery-item--still {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+  aspect-ratio: auto;
+}
+
+.gallery-item--still .gallery-com-still {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.gallery-item--still .gallery-com-still img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.gallery-item--still:hover .gallery-com-still img {
+  transform: scale(1.04);
+}
+
+.gallery-item--still .gallery-com-still::after {
+  content: "";
+  position: absolute;
+  inset: auto 12px 12px auto;
+  z-index: 6;
+  width: 145px;
+  height: 90px;
+  background: transparent url("logo.png?v=10") center / contain no-repeat;
+  box-shadow: none;
+  opacity: 0.72;
+  filter: drop-shadow(0 5px 12px rgba(0, 0, 0, 0.32));
+  pointer-events: none;
+}
+
+.gallery-lightbox-grid--single {
+  grid-template-columns: 1fr !important;
+  max-width: 720px;
+  margin: 0 auto;
 }

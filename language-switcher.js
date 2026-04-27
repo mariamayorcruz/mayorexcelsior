@@ -330,26 +330,100 @@
       es: "Estándares de transformación",
     },
     "gallery-subtitle": {
-      en: "Drag each image to see the kind of visible reset Mayor Excelsior looks for: clearer surfaces, brighter rooms, better presentation, and spaces that feel ready again.",
-      es: "Arrastra cada imagen para ver el tipo de cambio visible que busca Mayor Excelsior: superficies más claras, habitaciones más luminosas, mejor presentación y espacios que vuelven a sentirse listos.",
+      en: "Residential: drag the slider to compare before and after. Commercial: each project shows all “before” photos first, then all “after” for the same site.",
+      es: "Residencial: arrastra el control para comparar antes y después. Comercial: en cada proyecto, primero todas las fotos “antes” y luego todas las “después” del mismo sitio.",
     },
     "gallery-sub-res": { en: "Residential", es: "Residencial" },
     "gallery-sub-com": { en: "Commercial", es: "Comercial" },
+    "gallery-com-intro": {
+      en: "Commercial breakroom and common area — all “before” photos, then all “after” for the same project.",
+      es: "Comedor y áreas comunes: primero todas las fotos “antes” y luego todas las “después” del mismo proyecto.",
+    },
+    "gallery-com-compare-hint": {
+      en: "Before / after — same commercial breakroom and common area.",
+      es: "Antes / después — mismo comedor y área comercial.",
+    },
+    "gallery-com-pair": {
+      en: "Before / after — same space.",
+      es: "Antes / después — mismo espacio.",
+    },
+    "gallery-com-extra": {
+      en: "More “before” shots (details and other angles) — no matching after for these frames yet.",
+      es: "Más fotos “antes” (detalles y otros ángulos) — aún sin “después” emparejado en estos encuadres.",
+    },
+    "gallery-com-still-cap": {
+      en: "Before — commercial breakroom and common areas (reference).",
+      es: "Antes — comedor y áreas comunes comerciales (referencia).",
+    },
+    "gallery-com-section-before": { en: "Before", es: "Antes" },
+    "gallery-com-section-after": { en: "After", es: "Después" },
+    "gallery-com-after-cap": {
+      en: "After — same commercial breakroom and common area (reference).",
+      es: "Después — mismo comedor y área comercial (referencia).",
+    },
+    "gallery-com2-label": {
+      en: "Commercial — another site",
+      es: "Comercial — otro sitio",
+    },
+    "gallery-com2-intro": {
+      en: "Another commercial breakroom and common area — all “before” photos, then all “after” for the same site.",
+      es: "Otro comedor y área comercial: primero todas las “antes” y luego todas las “después” del mismo sitio.",
+    },
+    "gallery-com2-still-cap": {
+      en: "Before — industrial-style breakroom and common area (reference).",
+      es: "Antes — comedor estilo industrial y área común (referencia).",
+    },
+    "gallery-com2-after-cap": {
+      en: "After — same industrial breakroom and common area (reference).",
+      es: "Después — mismo comedor estilo industrial y área común (referencia).",
+    },
+    "gallery-com3-label": {
+      en: "Commercial — staircase",
+      es: "Comercial — escalera",
+    },
+    "gallery-com3-intro": {
+      en: "Interior commercial stair — one “before” and one “after”, side by side.",
+      es: "Escalera comercial interior: una “antes” y una “después” en la misma fila.",
+    },
+    "gallery-com3-still-cap": {
+      en: "Before — commercial stairway (reference).",
+      es: "Antes — escalera comercial (referencia).",
+    },
+    "gallery-com3-after-cap": {
+      en: "After — same commercial stairway (reference).",
+      es: "Después — misma escalera comercial (referencia).",
+    },
+    "gallery-com4-label": {
+      en: "Commercial — door frame",
+      es: "Comercial — marco de puerta",
+    },
+    "gallery-com4-intro": {
+      en: "Door frame and jamb — one “before” and one “after”, side by side.",
+      es: "Marco y quicio de puerta: una “antes” y una “después” en la misma fila.",
+    },
+    "gallery-com4-still-cap": {
+      en: "Before — door frame and surround (reference).",
+      es: "Antes — marco y rodapié de puerta (referencia).",
+    },
+    "gallery-com4-after-cap": {
+      en: "After — same door frame and surround (reference).",
+      es: "Después — mismo marco y rodapié (referencia).",
+    },
     "gallery-cap-1": {
-      en: "Kitchen reset. Dull surfaces to bright counters.",
-      es: "Cocina renovada. Superficies opacas a mesones brillantes.",
+      en: "Bathroom reset. Cluttered vanity to fresh, detailed clean.",
+      es: "Baño renovado. Tocador desordenado a limpieza fresca y detallada.",
     },
     "gallery-cap-2": {
-      en: "Bedroom reset. Visual clutter to calm, ready space.",
-      es: "Dormitorio ordenado. Del desorden visual a un espacio calmado y listo.",
+      en: "Kitchen reset. Busy counters to a cleaner cooking space.",
+      es: "Cocina renovada. Mesones ocupados a un espacio más limpio para cocinar.",
     },
     "gallery-cap-3": {
-      en: "Bathroom reset. Water spots to fresh fixtures.",
-      es: "Baño renovado. Manchas de agua a accesorios impecables.",
+      en: "Sink area reset. Daily dishes to a clearer work surface.",
+      es: "Área del fregadero renovada. Platos del día a una superficie más despejada.",
     },
     "gallery-cap-4": {
-      en: "Office reset. Dusty work zones to client-ready.",
-      es: "Oficina lista. Zonas polvorientas a espacio presentable.",
+      en: "Vanity reset. Crowded counter to clean detail work.",
+      es: "Tocador renovado. Mesón lleno a detalles limpios.",
     },
     "gallery-cap-5": {
       en: "Reception reset. Foot traffic to polished entry.",
@@ -361,6 +435,10 @@
     },
     "gallery-ba-before": { en: "Before", es: "Antes" },
     "gallery-ba-after": { en: "After", es: "Después" },
+    "gallery-lightbox-kicker": { en: "Before / after", es: "Antes / después" },
+    "gallery-lightbox-kicker-beforeonly": { en: "Before", es: "Antes" },
+    "gallery-lightbox-kicker-afteronly": { en: "After", es: "Después" },
+    "gallery-lightbox-close": { en: "Close", es: "Cerrar" },
 
     /* QUOTE */
     "quote-eyebrow": { en: "Free quote", es: "Cotización gratis" },
@@ -752,6 +830,10 @@
     try {
       localStorage.setItem("me-lang", currentLang);
     } catch (e) {}
+  };
+
+  window.meApplyPageLanguage = function () {
+    applyLang(currentLang);
   };
 
   document.addEventListener("DOMContentLoaded", function () {

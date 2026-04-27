@@ -1,0 +1,1449 @@
+<!DOCTYPE html><!--qkWbsBJNgA8p1cAQ8w3aN--><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="stylesheet" href="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/4c00575e4d048e3d.css" data-precedence="next"/><link rel="stylesheet" href="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/732e09d67960479a.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/a30fbd329c17ae4e.js"/><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3a4bd522cf89ded6.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/9aa66735861e8e9b.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/0ed5ec77517b039c.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/turbopack-4816c9349f5af571.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3dacf8ff4bb6504c.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ca3649ef7b94ae2c.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/acca7c9a60be813e.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/6d04d032992fb6ac.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/7c6cf385071d9019.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/9a42fb5b4bdeaf4b.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/347c3977c8e96fa9.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/704fd3360a402c7f.js" async=""></script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3e4a72ce67395ba3.js" async=""></script><meta name="next-size-adjust" content=""/><title>Mayor Excelsior Cleaning Services</title><meta name="description" content="Professional cleaning services for offices, schools, and homes. Quality, trust, and excellence delivered."/><link rel="icon" href="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/favicon.ico?favicon.0b3bf435.ico" sizes="256x256" type="image/x-icon"/><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/a6dad97d9634a72d.js" noModule=""></script></head><body class="montserrat_a6b8e55e-module__JnHUVq__variable antialiased"><div hidden=""><!--$--><!--/$--></div><button class="fixed z-[99999] bottom-6 right-6 w-[160px] h-[92px] cursor-pointer"><div class="w-full h-full"><canvas style="vertical-align:top;width:0;height:0"></canvas></div></button><style>
+    :root {
+      --theme-border-radius: var(--radius);
+      --theme-border-radius-capped: var(--radius);
+      --width-content-width: clamp(40rem, 77.5vw, 100rem);
+      --width-content-width-expanded: clamp(calc(40rem - (40rem - 100vw) / 2), 88.75vw, calc(100rem + (100vw - 100rem) / 2));
+      --vw: clamp(0.5rem, 0.92vw, 1rem);
+      --heading-font-weight: 300;
+      --text-2xs: clamp(0.465rem, 0.713vw, 0.62rem);
+      --text-xs: clamp(0.54rem, 0.828vw, 0.72rem);
+      --text-sm: clamp(0.615rem, 0.943vw, 0.82rem);
+      --text-base: clamp(0.69rem, 1.058vw, 0.92rem);
+      --text-lg: clamp(0.75rem, 1.15vw, 1rem);
+      --text-xl: clamp(0.825rem, 1.265vw, 1.1rem);
+      --text-2xl: clamp(0.975rem, 1.495vw, 1.3rem);
+      --text-3xl: clamp(1.2rem, 1.84vw, 1.6rem);
+      --text-4xl: clamp(1.5rem, 2.3vw, 2rem);
+      --text-5xl: clamp(2.025rem, 3.1625vw, 2.75rem);
+      --text-6xl: clamp(2.475rem, 3.795vw, 3.3rem);
+      --text-7xl: clamp(3rem, 4.6vw, 4rem);
+      --text-8xl: clamp(3.5rem, 5.175vw, 4.5rem);
+      --text-9xl: clamp(5.25rem, 8.05vw, 7rem);
+    }
+    @media (max-width: 768px) {
+      :root {
+        --width-content-width: 80vw;
+        --width-content-width-expanded: 90vw;
+        --vw: 3.45vw;
+        --text-2xs: 2.875vw;
+        --text-xs: 3.1625vw;
+        --text-sm: 3.45vw;
+        --text-base: 3.7375vw;
+        --text-lg: 4.025vw;
+        --text-xl: 4.8875vw;
+        --text-2xl: 5.75vw;
+        --text-3xl: 6.9vw;
+        --text-4xl: 8.05vw;
+        --text-5xl: 8.625vw;
+        --text-6xl: 9.775vw;
+        --text-7xl: 11.5vw;
+        --text-8xl: 13.8vw;
+        --text-9xl: 16.1vw;
+      }
+    }
+    .card {
+      
+    position: relative;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--color-card) 100%, var(--color-accent) 5%) -35%, var(--color-card) 65%);
+    box-shadow: 0px 0px 10px 4px color-mix(in srgb, var(--color-accent) 4%, transparent);
+  
+    }
+    
+    .card::before {
+      content: "";
+      position: absolute;
+      pointer-events: none;
+      inset: 0;
+      padding: 1px;
+      border-radius: inherit;
+      background: linear-gradient(
+        160deg,
+        color-mix(in srgb, var(--color-accent) 25%, transparent) 0%,
+        color-mix(in srgb, var(--color-accent) 5%, transparent) 35%,
+        color-mix(in srgb, var(--color-foreground) 5%, transparent) 75%,
+        color-mix(in srgb, var(--color-background-accent) 15%, transparent) 100%
+      );
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      mask-composite: exclude;
+    }
+  
+    .primary-button {
+      
+    background: linear-gradient(to bottom right, color-mix(in srgb, var(--color-primary-cta) 80%, transparent), var(--color-foreground));
+    box-shadow: 2.10837px 3.16256px 9.48767px color-mix(in srgb, var(--color-accent) 30%, transparent);
+  
+    }
+    
+    .secondary-button {
+      
+    background:
+      radial-gradient(circle at 0% 0%, color-mix(in srgb, var(--color-accent) 15%, transparent) 0%, transparent 40%),
+      radial-gradient(circle at 100% 100%, color-mix(in srgb, var(--color-accent) 15%, transparent) 0%, transparent 40%),
+      var(--color-secondary-cta);
+    box-shadow: 2.10837px 3.16256px 9.48767px color-mix(in srgb, var(--color-accent) 10%, transparent);
+  
+    }
+  </style><div class="fixed top-0 left-0 right-0 bottom-0 h-screen w-full -z-10 overflow-hidden" aria-hidden="true"><div class="fixed w-100 md:w-70 h-auto aspect-square rounded-full opacity-10 top-0 right-0 translate-x-1/2 -translate-y-1/2" style="background:radial-gradient(circle at center, var(--color-background-accent) 35%, transparent 70%)"></div><div class="fixed w-100 md:w-70 h-auto aspect-square rounded-full opacity-10 bottom-0 left-0 -translate-x-1/2 translate-y-1/2" style="background:radial-gradient(circle at center, var(--color-background-accent) 35%, transparent 70%)"></div></div><div id="nav" data-section="nav"><nav role="navigation" aria-label="Main navigation" class="fixed z-[100] top-6 w-full" style="transform:translateY(calc(-100% - 3rem));transition:transform 900ms cubic-bezier(0.25, 0.46, 0.45, 0.94)"><div class="mx-auto flex items-center justify-between card rounded-theme p-3 pl-6 h-fit relative" style="max-width:22rem;transition:max-width 1000ms cubic-bezier(0.4, 0, 0.2, 1)"><button class="cursor-pointer"><h2 class="text-xl font-medium text-foreground">Mayor Excelsior</h2></button><div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex gap-6 items-center"><div class="transition-all duration-700 ease-out opacity-0 translate-y-3" style="transition-delay:0ms"><button type="button" data-href="hero" aria-label="Home" class="relative text-sm inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 !text-base">Home</button></div><div class="transition-all duration-700 ease-out opacity-0 translate-y-3" style="transition-delay:120ms"><button type="button" data-href="services" aria-label="Services" class="relative text-sm inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 !text-base">Services</button></div><div class="transition-all duration-700 ease-out opacity-0 translate-y-3" style="transition-delay:240ms"><button type="button" data-href="features" aria-label="Why Choose Us" class="relative text-sm inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 !text-base">Why Choose Us</button></div><div class="transition-all duration-700 ease-out opacity-0 translate-y-3" style="transition-delay:360ms"><button type="button" data-href="testimonials" aria-label="Testimonials" class="relative text-sm inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 !text-base">Testimonials</button></div><div class="transition-all duration-700 ease-out opacity-0 translate-y-3" style="transition-delay:480ms"><button type="button" data-href="contact" aria-label="Contact" class="relative text-sm inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 !text-base">Contact</button></div></div><div class="flex items-center gap-3"><button type="button" data-href="#contact" aria-label="Book Now" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative text-sm inline-block overflow-hidden truncate whitespace-nowrap">Book Now</span></button></div></div></nav></div><a href="https://wa.me/3852807661?text=Hi,%20I%E2%80%99m%20interested%20in%20your%20cleaning%20services.%20Can%20I%20get%20a%20quote?" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-green-500 rounded-full shadow-lg hover:scale-110 transition-transform duration-300" aria-label="Chat on WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle w-8 h-8 text-white" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg></a><div id="hero" data-section="hero"><section aria-label="Hero section" class="relative w-full h-fit py-hero-page-padding md:py-0 md:h-svh flex items-center"><!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--><div class="w-content-width mx-auto flex flex-col md:flex-row gap-13 md:gap-15 items-center relative z-10"><div class="w-full md:w-1/2"><div class="md:gap-1 items-center text-center flex flex-col gap-3 md:hidden"><h2 class="blur-text text-7xl 2xl:text-8xl font-medium text-center md:text-left text-balance" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Spotless Facilities, Guaranteed Excellence">Spotless Facilities, Guaranteed Excellence</h2><p class="blur-text max-w-8/10 text-lg md:text-xl leading-[1.2] text-center md:text-left" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Mayor Excelsior provides top-tier, reliable cleaning solutions for offices, schools, and homes. We turn spaces into pristine environments so you can focus on what truly matters.">Mayor Excelsior provides top‑tier, reliable cleaning solutions for offices, schools, and homes. We turn spaces into pristine environments so you can focus on what truly matters.</p><div class="w-full justify-center flex flex-wrap gap-4 max-md:justify-center mt-2"><button type="button" data-href="#contact" aria-label="Get a Free Quote" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative inline-block overflow-hidden truncate whitespace-nowrap text-base">Get a Free Quote</span></button><button type="button" data-href="#services" aria-label="View Services" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-secondary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button secondary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative inline-block overflow-hidden truncate whitespace-nowrap text-base">View Services</span></button></div></div><div class="hidden md:flex flex-col gap-3 md:gap-4"><h2 class="blur-text text-7xl 2xl:text-8xl font-medium text-center md:text-left text-balance" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Spotless Facilities, Guaranteed Excellence">Spotless Facilities, Guaranteed Excellence</h2><p class="blur-text max-w-8/10 text-lg md:text-xl leading-tight text-center md:text-left" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Mayor Excelsior provides top-tier, reliable cleaning solutions for offices, schools, and homes. We turn spaces into pristine environments so you can focus on what truly matters.">Mayor Excelsior provides top‑tier, reliable cleaning solutions for offices, schools, and homes. We turn spaces into pristine environments so you can focus on what truly matters.</p><div class="w-full flex flex-wrap gap-4 max-md:justify-center mt-2"><button type="button" data-href="#contact" aria-label="Get a Free Quote" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative inline-block overflow-hidden truncate whitespace-nowrap text-base">Get a Free Quote</span></button><button type="button" data-href="#services" aria-label="View Services" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-secondary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button secondary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative inline-block overflow-hidden truncate whitespace-nowrap text-base">View Services</span></button></div></div></div><div class="relative w-full md:w-1/2 overflow-hidden rounded-theme-capped card p-4 md:max-h-[75svh] h-100 md:h-[65vh]"><img alt="" aria-hidden="true" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" class="w-full object-cover rounded-theme-capped h-full min-h-0" style="color:transparent" src="http://img.b2bpic.net/free-photo/empty-office-workplace-with-table-chair_1170-1958.jpg?_wi=2"/><div class="absolute! bottom-[calc(var(--spacing-4)+var(--spacing-4))] right-[calc(var(--spacing-4)+var(--spacing-4))] max-md:left-[calc(var(--spacing-4)+var(--spacing-4))] max-w-full md:max-w-5/10 card rounded-theme-capped p-6 flex flex-col justify-between gap-5"><div class="flex flex-col gap-5 animation-container"><div class="flex flex-col gap-5 items-start"><div class="relative z-1 flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg></div><p class="relative z-1 text-lg leading-[1.2] text-foreground">The best cleaning team we&#x27;ve ever hired. Incredible detail and very trustworthy.</p></div><div class="relative z-1 flex items-center gap-4"><div class="relative shrink-0 h-11 w-fit aspect-square rounded-theme flex items-center justify-center primary-button overflow-hidden"><img alt="professional commercial cleaning office workspace" aria-hidden="false" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" class="absolute inset-0 w-full h-full object-cover" style="color:transparent" src="http://img.b2bpic.net/free-photo/empty-office-workplace-with-table-chair_1170-1958.jpg?_wi=1"/></div><div class="w-full min-w-0 flex flex-col gap-0"><h3 class="text-2xl font-medium leading-[1.15] truncate text-foreground">Sarah Miller</h3><p class="text-sm leading-[1.15] text-foreground">@FacilitiesManager</p></div></div></div></div></div></div></section></div><div id="features" data-section="features"><section aria-label="Feature comparison section" class="relative py-20 w-full"><div class="w-content-width mx-auto flex flex-col gap-8"><div class="items-center text-center flex flex-col gap-3 md:gap-2"><h2 class="blur-text text-6xl font-medium text-center" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Why Choose Mayor Excelsior?">Why Choose Mayor Excelsior?</h2><p class="blur-text text-lg leading-tight text-center md:max-w-6/10" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="We don&#x27;t just clean—we care. Our team blends professional-grade standards with personalized service, ensuring your facility remains pristine, compliant, and welcoming for everyone who enters.">We don&#x27;t just clean—we care. Our team blends professional‑grade standards with personalized service, ensuring your facility remains pristine, compliant, and welcoming for everyone who enters.</p></div><div class="relative mx-auto w-full md:w-60 grid grid-cols-1 gap-6 md:grid-cols-2"><div class="relative h-full card rounded-theme-capped p-6"><div class="flex flex-col gap-6 opacity-50"><div class="relative z-1 flex flex-col gap-3"><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div><span class="text-base text-foreground truncate">Certified safety protocols</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div><span class="text-base text-foreground truncate">Advanced sanitation technology</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div><span class="text-base text-foreground truncate">Fully insured, background-checked staff</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div><span class="text-base text-foreground truncate">Rapid response deployments</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div><span class="text-base text-foreground truncate">Eco-friendly cleaning supplies</span></div></div></div></div><div class="relative h-full card rounded-theme-capped p-6"><div class="flex flex-col gap-6"><div class="relative z-1 flex flex-col gap-3"><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-base text-foreground truncate">Dedicated account management</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-base text-foreground truncate">Meticulous attention to detail</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-base text-foreground truncate">Reliable, consistent performance</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-base text-foreground truncate">Customized scheduling options</span></div><div class="flex items-start gap-3"><div class="h-6 aspect-square primary-button rounded-theme flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4/10 text-primary-cta-text" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-base text-foreground truncate">Transparent, upfront pricing</span></div></div></div></div></div></div></section></div><div id="services" data-section="services"><section class="relative py-20 w-full" aria-label="Product section"><div class="w-content-width mx-auto flex flex-col gap-6"><div class="items-center text-center flex flex-col gap-3 md:gap-2"><h2 class="blur-text text-6xl font-medium text-center" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Professional Cleaning Services">Professional Cleaning Services</h2><p class="blur-text text-lg leading-tight text-center md:max-w-6/10" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="From corporate offices to high-traffic school corridors, we deliver results that define cleanliness excellence.">From corporate offices to high‑traffic school corridors, we deliver results that define cleanliness excellence.</p></div><div class="grid grid-cols-1 gap-6 md:grid-cols-2 md:grid-rows-[26.5rem_26.5rem] 2xl:grid-rows-[32.5rem_32.5rem]"><div class="md:col-span-1 md:row-span-1 md:overflow-hidden min-h-95 md:min-h-0"><article class="card group relative h-full flex flex-col gap-4 cursor-pointer p-4 rounded-theme-capped" role="article" aria-label="Executive Office Care - Custom tailored plans"><div class="relative w-full h-full rounded-theme-capped overflow-hidden card"><div class="relative z-1 w-full h-full overflow-hidden rounded-theme-capped"><img alt="Executive Office Care" aria-hidden="false" loading="lazy" decoding="async" data-nimg="fill" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="http://img.b2bpic.net/free-photo/still-life-office-cleaning-process_23-2149343038.jpg?_wi=2"/></div><button class="absolute cursor-pointer top-4 right-4 card h-8 w-auto aspect-square rounded-theme flex items-center justify-center z-10" aria-label="Add to favorites" type="button"><div class="relative z-1 w-full h-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-foreground transition-all duration-300 opacity-100 blur-0" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-accent absolute transition-all duration-300 opacity-0 blur-xs" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg></div></button></div><div class="relative z-1 flex flex-col gap-3"><h3 class="text-xl font-medium leading-[1.15] truncate text-foreground">Executive Office Care</h3><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-2"><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Decrease quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="text-base font-medium min-w-[2ch] text-center leading-[1] text-foreground">1</span><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Increase quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div><button type="button" aria-label="Custom tailored plans" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative text-sm inline-block overflow-hidden truncate whitespace-nowrap">Custom tailored plans</span></button></div></div></article></div><div class="md:col-span-1 md:row-span-1 md:overflow-hidden min-h-95 md:min-h-0"><article class="card group relative h-full flex flex-col gap-4 cursor-pointer p-4 rounded-theme-capped" role="article" aria-label="Commercial Facility Suite - Comprehensive solutions"><div class="relative w-full h-full rounded-theme-capped overflow-hidden card"><div class="relative z-1 w-full h-full overflow-hidden rounded-theme-capped"><img alt="Commercial Facility Suite" aria-hidden="false" loading="lazy" decoding="async" data-nimg="fill" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="http://img.b2bpic.net/free-photo/professional-cleaning-service-people-working-together-office_23-2150520639.jpg?_wi=2"/></div><button class="absolute cursor-pointer top-4 right-4 card h-8 w-auto aspect-square rounded-theme flex items-center justify-center z-10" aria-label="Add to favorites" type="button"><div class="relative z-1 w-full h-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-foreground transition-all duration-300 opacity-100 blur-0" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-accent absolute transition-all duration-300 opacity-0 blur-xs" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg></div></button></div><div class="relative z-1 flex flex-col gap-3"><h3 class="text-xl font-medium leading-[1.15] truncate text-foreground">Commercial Facility Suite</h3><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-2"><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Decrease quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="text-base font-medium min-w-[2ch] text-center leading-[1] text-foreground">1</span><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Increase quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div><button type="button" aria-label="Comprehensive solutions" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative text-sm inline-block overflow-hidden truncate whitespace-nowrap">Comprehensive solutions</span></button></div></div></article></div><div class="md:col-span-1 md:row-span-1 md:overflow-hidden min-h-95 md:min-h-0"><article class="card group relative h-full flex flex-col gap-4 cursor-pointer p-4 rounded-theme-capped" role="article" aria-label="Sanitary Educational Spaces - Student-safe sanitation"><div class="relative w-full h-full rounded-theme-capped overflow-hidden card"><div class="relative z-1 w-full h-full overflow-hidden rounded-theme-capped"><img alt="Sanitary Educational Spaces" aria-hidden="false" loading="lazy" decoding="async" data-nimg="fill" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="http://img.b2bpic.net/free-photo/female-teacher-teaching-kids-about-disinfecting_23-2148925433.jpg?_wi=2"/></div><button class="absolute cursor-pointer top-4 right-4 card h-8 w-auto aspect-square rounded-theme flex items-center justify-center z-10" aria-label="Add to favorites" type="button"><div class="relative z-1 w-full h-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-foreground transition-all duration-300 opacity-100 blur-0" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-accent absolute transition-all duration-300 opacity-0 blur-xs" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg></div></button></div><div class="relative z-1 flex flex-col gap-3"><h3 class="text-xl font-medium leading-[1.15] truncate text-foreground">Sanitary Educational Spaces</h3><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-2"><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Decrease quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="text-base font-medium min-w-[2ch] text-center leading-[1] text-foreground">1</span><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Increase quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div><button type="button" aria-label="Student-safe sanitation" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative text-sm inline-block overflow-hidden truncate whitespace-nowrap">Student-safe sanitation</span></button></div></div></article></div><div class="md:col-span-1 md:row-span-1 md:overflow-hidden min-h-95 md:min-h-0"><article class="card group relative h-full flex flex-col gap-4 cursor-pointer p-4 rounded-theme-capped" role="article" aria-label="Premium Residential Care - Deep cleaning service"><div class="relative w-full h-full rounded-theme-capped overflow-hidden card"><div class="relative z-1 w-full h-full overflow-hidden rounded-theme-capped"><img alt="Premium Residential Care" aria-hidden="false" loading="lazy" decoding="async" data-nimg="fill" class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="http://img.b2bpic.net/free-photo/beautiful-luxury-pillow-sofa-decoration-living-room-interior-vintage-light-filter_74190-3841.jpg?_wi=2"/></div><button class="absolute cursor-pointer top-4 right-4 card h-8 w-auto aspect-square rounded-theme flex items-center justify-center z-10" aria-label="Add to favorites" type="button"><div class="relative z-1 w-full h-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-foreground transition-all duration-300 opacity-100 blur-0" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-4/10 text-accent absolute transition-all duration-300 opacity-0 blur-xs" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path></svg></div></button></div><div class="relative z-1 flex flex-col gap-3"><h3 class="text-xl font-medium leading-[1.15] truncate text-foreground">Premium Residential Care</h3><div class="flex items-center justify-between gap-4"><div class="flex items-center gap-2"><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Decrease quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path></svg></button><span class="text-base font-medium min-w-[2ch] text-center leading-[1] text-foreground">1</span><button class="secondary-button h-8 aspect-square rounded-theme flex items-center justify-center cursor-pointer" aria-label="Increase quantity" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus relative h-4/10 text-secondary-cta-text" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button></div><button type="button" aria-label="Deep cleaning service" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative text-sm inline-block overflow-hidden truncate whitespace-nowrap">Deep cleaning service</span></button></div></div></article></div></div></div></section></div><div id="about" data-section="about"><section aria-label="About section" class="relative py-20 w-full"><div class="w-content-width mx-auto flex flex-col gap-6 items-center"><div class="blur-text text-2xl md:text-5xl font-medium text-center leading-[1.175]" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Our Commitment to &#x27;Excelsior&#x27;">Our Commitment to &#x27;Excelsior&#x27;</div><div class="flex flex-wrap gap-4 max-md:justify-center"><button type="button" data-href="#" aria-label="Discover Our Mission" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 w-fit max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative inline-block overflow-hidden truncate whitespace-nowrap text-base">Discover Our Mission</span></button></div></div></section></div><div id="testimonials" data-section="testimonials"><section class="relative py-20 w-full" aria-label="Testimonials section"><div class="w-content-width mx-auto flex flex-col gap-6"><div class="items-center text-center flex flex-col gap-3 md:gap-2"><h2 class="blur-text text-6xl font-medium text-center" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Trusted by Industry Leaders">Trusted by Industry Leaders</h2><p class="blur-text text-lg leading-tight text-center md:max-w-6/10" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="We value long-term partnerships built on reliability, trust, and exceptional results.">We value long‑term partnerships built on reliability, trust, and exceptional results.</p></div><div class="grid grid-cols-1 gap-6 md:grid-cols-2"><div class="min-h-none"><div class="relative h-full card rounded-theme-capped p-6 flex flex-col justify-between gap-5"><div class="flex flex-col gap-5 items-start"><div class="relative z-1 flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg></div><p class="relative z-1 text-lg leading-[1.2] text-foreground">The peace of mind knowing the office is properly sanitized is priceless. They are our go-to partner.</p></div><div class="relative z-1 flex items-center gap-4"><div class="relative shrink-0 h-11 w-fit aspect-square rounded-theme flex items-center justify-center primary-button overflow-hidden"><img alt="Sarah J." aria-hidden="false" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" class="absolute inset-0 w-full h-full object-cover" style="color:transparent" src="http://img.b2bpic.net/free-photo/happy-beautiful-blonde-woman-wearing-white-shirt-standing-co-working-space-leaning-desk-posing_74855-9949.jpg"/></div><div class="w-full min-w-0 flex flex-col gap-0"><h3 class="text-2xl font-medium leading-[1.15] truncate text-foreground">Sarah J.</h3><p class="text-sm leading-[1.15] text-foreground">@CorpAdmin</p></div></div></div></div><div class="min-h-none"><div class="relative h-full card rounded-theme-capped p-6 flex flex-col justify-between gap-5"><div class="flex flex-col gap-5 items-start"><div class="relative z-1 flex gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-5 w-auto text-accent fill-accent" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg></div><p class="relative z-1 text-lg leading-[1.2] text-foreground">Finally, a team that treats our facility like their own. Outstanding communication and results.</p></div><div class="relative z-1 flex items-center gap-4"><div class="relative shrink-0 h-11 w-fit aspect-square rounded-theme flex items-center justify-center primary-button overflow-hidden"><img alt="Mike R." aria-hidden="false" loading="lazy" width="800" height="800" decoding="async" data-nimg="1" class="absolute inset-0 w-full h-full object-cover" style="color:transparent" src="http://img.b2bpic.net/free-photo/people-technology-close-up-shot-happy-face-attractive-bearded-man-sitting-front-laptop-screen-smiling-joyfully-while-messaging-friends-online-via-social-networks_273609-6655.jpg"/></div><div class="w-full min-w-0 flex flex-col gap-0"><h3 class="text-2xl font-medium leading-[1.15] truncate text-foreground">Mike R.</h3><p class="text-sm leading-[1.15] text-foreground">@FacilitiesLead</p></div></div></div></div></div></div></section></div><div id="faq" data-section="faq"><section aria-label="FAQ section" class="relative py-20 w-full"><div class="w-content-width mx-auto flex flex-col gap-8"><div class="items-center text-center flex flex-col gap-3 md:gap-2"><h2 class="blur-text text-6xl font-medium text-center" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Your Questions, Answered">Your Questions, Answered</h2><p class="blur-text text-lg leading-tight text-center md:max-w-6/10" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Everything you need to know about partnering with the pros at Mayor Excelsior.">Everything you need to know about partnering with the pros at Mayor Excelsior.</p></div><div class="card p-4 rounded-theme-capped flex flex-col md:flex-row gap-4 overflow-hidden"><div class="relative z-1 flex-1 flex flex-col gap-4"><div class="card p-4 rounded-theme-capped cursor-pointer flex flex-col items-center justify-between transition-all duration-500 group" aria-expanded="false"><div class="flex flex-row items-center justify-between w-full"><h2 class="text-base md:text-xl font-medium text-foreground">Is your team fully vetted and insured?</h2><div class="h-8 aspect-square flex items-center justify-center rounded-theme primary-button transition-all duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-4/10 aspect-square text-primary-cta-text transition-transform duration-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></div></div><div style="max-height:0px" class="overflow-hidden transition-[max-height] duration-500 w-full flex flex-col"><div class="text-base text-foreground pt-2">Absolutely. We conduct rigorous background checks, maintain comprehensive insurance coverage, and ensure our staff is expertly trained.</div></div></div><div class="card p-4 rounded-theme-capped cursor-pointer flex flex-col items-center justify-between transition-all duration-500 group" aria-expanded="false"><div class="flex flex-row items-center justify-between w-full"><h2 class="text-base md:text-xl font-medium text-foreground">How do you guarantee quality service?</h2><div class="h-8 aspect-square flex items-center justify-center rounded-theme primary-button transition-all duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-4/10 aspect-square text-primary-cta-text transition-transform duration-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></div></div><div style="max-height:0px" class="overflow-hidden transition-[max-height] duration-500 w-full flex flex-col"><div class="text-base text-foreground pt-2">Our 24-point quality assurance program drives our consistency, ensuring every corner meets our high standards—every single time.</div></div></div></div><div class="relative z-1 flex-1 flex flex-col gap-4"><div class="card p-4 rounded-theme-capped cursor-pointer flex flex-col items-center justify-between transition-all duration-500 group" aria-expanded="false"><div class="flex flex-row items-center justify-between w-full"><h2 class="text-base md:text-xl font-medium text-foreground">Can I customize my cleaning schedule?</h2><div class="h-8 aspect-square flex items-center justify-center rounded-theme primary-button transition-all duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-4/10 aspect-square text-primary-cta-text transition-transform duration-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></div></div><div style="max-height:0px" class="overflow-hidden transition-[max-height] duration-500 w-full flex flex-col"><div class="text-base text-foreground pt-2">Yes. We provide flexible daily, weekly, or event-based scheduling designed to support your operational needs, not disrupt them.</div></div></div></div></div></div></section></div><div id="contact" data-section="contact"><section aria-label="Contact section" class="relative py-20 w-full"><div class="w-content-width mx-auto relative z-10"><div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:auto-rows-fr"><div class="relative card rounded-theme-capped p-6 py-15 md:py-6 flex items-center justify-center"><div class="relative z-1 flex flex-col gap-4 items-center text-center w-full"><div class="w-full flex flex-col gap-1 items-center"><div><div class="relative z-1 px-3 py-1 text-sm rounded-theme card inline-flex items-center gap-2 w-fit"><span class="text-foreground">Book Your Consultation</span></div></div><div class="blur-text text-4xl md:text-5xl font-medium leading-[1.175] text-balance text-foreground w-full md:w-8/10" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Ready for a Spotless Environment?">Ready for a Spotless Environment?</div><div class="blur-text text-base leading-[1.15] mb-1 text-balance text-foreground w-full md:w-8/10" style="font-kerning:none;text-rendering:optimizeSpeed" aria-label="Secure your cleaning slot with the region&#x27;s most trusted name. We&#x27;re ready to tailor the perfect maintenance plan for your facility.">Secure your cleaning slot with the region&#x27;s most trusted name. We&#x27;re ready to tailor the perfect maintenance plan for your facility.</div></div><div class="flex flex-col gap-1 w-full md:w-8/10 2xl:w-7/10"><form class="relative z-1 flex flex-col md:flex-row gap-3 md:gap-1 w-full card rounded-theme-capped md:rounded-theme p-1"><input type="email" placeholder="Enter your email" required="" class="flex-1 px-4 text-base text-center md:text-left text-foreground placeholder:text-foreground/75 focus:outline-none focus:border-none truncate" aria-label="Email address" value=""/><button type="submit" aria-label="Book Your Free Consultation" class="bounce-button relative cursor-pointer flex items-center justify-center bg-transparent border-none leading-none no-underline h-9 px-6 min-w-0 max-w-full rounded-theme disabled:cursor-not-allowed disabled:opacity-50 text-primary-cta-text w-full md:w-auto"><div class="bounce-button-bg absolute! inset-0 rounded-theme primary-button primary-button"></div><span data-button-animate-chars="" class="bounce-button-text relative text-sm inline-block overflow-hidden truncate whitespace-nowrap">Book Your Free Consultation</span></button></form><p class="text-xs text-foreground/75">Priority response is guaranteed for all consultations booked before the end of the month.</p></div></div><div class="absolute inset w-full h-full z-0 rounded-theme-capped overflow-hidden"></div></div><div class="overflow-hidden rounded-theme-capped card h-130"><img alt="" aria-hidden="true" loading="lazy" width="1920" height="1080" decoding="async" data-nimg="1" class="rounded-theme-capped relative z-1 w-full h-full object-cover" style="color:transparent" src="http://img.b2bpic.net/free-photo/professional-cleaning-service-person-using-steam-cleaner-office_23-2150520635.jpg"/></div></div></div></section></div><div id="footer" data-section="footer"><footer role="contentinfo" aria-label="Site footer" class="relative overflow-hidden w-full primary-button text-primary-cta-text py-15 mt-20"><div class="relative w-content-width mx-auto z-10"><div class="flex flex-col md:flex-row gap-10 md:gap-0 justify-between items-start mb-10"><h2 class="text-4xl font-medium text-primary-cta-text">Mayor Excelsior</h2><div class="w-full md:w-fit flex flex-wrap gap-y-[var(--width-10)] md:gap-[calc(var(--width-10)/1.5)]"><div class="relative z-1 w-1/2 md:w-auto flex items-start flex-col gap-4"><h3 class="text-sm text-primary-cta-text/50">Services</h3><button type="button" data-href="#services" aria-label="Office Cleaning" class="relative inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-base text-primary-cta-text">Office Cleaning</button><button type="button" data-href="#services" aria-label="Commercial Suites" class="relative inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-base text-primary-cta-text">Commercial Suites</button><button type="button" data-href="#services" aria-label="Educational Care" class="relative inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-base text-primary-cta-text">Educational Care</button></div><div class="relative z-1 w-1/2 md:w-auto flex items-start flex-col gap-4"><h3 class="text-sm text-primary-cta-text/50">Information</h3><button type="button" data-href="#" aria-label="Privacy Policy" class="relative inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-base text-primary-cta-text">Privacy Policy</button><button type="button" data-href="#" aria-label="Terms of Service" class="relative inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-base text-primary-cta-text">Terms of Service</button><button type="button" data-href="#contact" aria-label="Get a Quote" class="relative inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-base text-primary-cta-text">Get a Quote</button></div></div></div><div class="w-full flex items-center justify-between pt-9 border-t border-primary-cta-text/20"><span class="text-primary-cta-text/50 text-sm">© 2025 Mayor Excelsior Cleaning Services | Excellence in Every Detail</span><button type="button" aria-label="Privacy Policy" class="relative text-sm inline-block bg-transparent border-none p-0 cursor-pointer after:content-[&#x27;&#x27;] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:after:scale-x-0 text-primary-cta-text/50">Privacy Policy</button></div></div></footer></div><!--$--><!--/$--><script>
+(function() {
+  if (window.self === window.top) return;
+
+  if (window.__webildEditorInitialized) return;
+  window.__webildEditorInitialized = true;
+
+  let isActive = false;
+  let hoveredElement = null;
+  let selectedElement = null;
+  let originalContent = null;
+  let isEditing = false;
+  let elementTypeLabel = null;
+  let hoverOverlay = null;
+  let scrollTimeout = null;
+  let isScrolling = false;
+
+  const invalidElements = ['html', 'body', 'script', 'style', 'meta', 'link', 'head', 'noscript', 'title'];
+  const hoverClass = 'webild-hover';
+  const selectedClass = 'webild-selected';
+
+  const style = document.createElement('style');
+  style.id = 'webild-inspector-styles';
+  style.textContent = '' +
+    '.webild-hover {' +
+    '  outline: 2px dashed #4d96ff80 !important;' +
+    '  border-radius: 0 !important;' +
+    '  outline-offset: 2px !important;' +
+    '  cursor: pointer !important;' +
+    '  transition: outline 0.15s ease !important;' +
+    '  background-color: #4d96ff05 !important;' +
+    '}' +
+    '.webild-selected {' +
+    '  outline: 2px solid #4d96ff !important;' +
+    '  outline-offset: 2px !important;' +
+    '  transition: outline 0.15s ease !important;' +
+    '  background-color: #4d96ff05 !important;' +
+    '  border-radius: 0 !important;' +
+    '}' +
+    '[contenteditable="true"].webild-selected {' +
+    '  outline: 2px solid #4d96ff !important;' +
+    '  background-color: #4d96ff05 !important;' +
+    '}' +
+    'img.webild-hover,' +
+    'img.webild-selected,' +
+    'video.webild-hover,' +
+    'video.webild-selected {' +
+    '  outline-offset: 2px !important;' +
+    '}' +
+    '.webild-element-type-label {' +
+    '  position: fixed !important;' +
+    '  z-index: 999999 !important;' +
+    '  background: #4d96ff !important;' +
+    '  color: white !important;' +
+    '  padding: 4px 8px !important;' +
+    '  font-size: 11px !important;' +
+    '  font-weight: 600 !important;' +
+    '  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;' +
+    '  pointer-events: none !important;' +
+    '  white-space: nowrap !important;' +
+    '  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;' +
+    '  letter-spacing: 0.3px !important;' +
+    '  border: 1px solid #4d96ff20 !important;' +
+    '}' +
+    '.webild-element-type-label.label-top {' +
+    '  border-radius: 6px 6px 0 0 !important;' +
+    '}' +
+    '.webild-element-type-label.label-bottom {' +
+    '  border-radius: 0 0 6px 6px !important;' +
+    '}' +
+    '.webild-hover-overlay {' +
+    '  position: fixed !important;' +
+    '  background-color: #4d96ff15 !important;' +
+    '  pointer-events: none !important;' +
+    '  z-index: 999998 !important;' +
+    '  transition: all 0.15s ease !important;' +
+    '}';
+  document.head.appendChild(style);
+  
+  const getUniqueSelector = (element, assignId = false) => {
+    if (element.dataset && element.dataset.webildSelector) {
+      return element.dataset.webildSelector;
+    }
+    
+    const existingId = element.getAttribute('data-webild-id');
+    if (existingId) {
+      return '[data-webild-id="' + existingId + '"]';
+    }
+    
+    if (assignId) {
+      const uniqueId = 'webild-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
+      element.setAttribute('data-webild-id', uniqueId);
+      return '[data-webild-id="' + uniqueId + '"]';
+    }
+    
+    return null;
+  };
+  
+  const getSectionId = (element) => {
+    let current = element;
+    while (current && current !== document.body) {
+      const sectionId = current.getAttribute('data-section');
+      if (sectionId) {
+        return sectionId;
+      }
+      current = current.parentElement;
+    }
+    return 'hero';
+  };
+  
+  const getElementType = (element) => {
+  const tagName = element.tagName.toLowerCase();
+  const computedStyle = window.getComputedStyle(element);
+
+  if (tagName === 'img') {
+    return 'Image';
+  }
+
+  if (tagName === 'video') {
+    return 'Video';
+  }
+
+  const backgroundImage = computedStyle.backgroundImage;
+  if (backgroundImage && backgroundImage !== 'none') {
+    const urlMatch = backgroundImage.match(/url(['"]?([^'")]+)['"]?)/);
+    if (urlMatch && urlMatch[1] && !urlMatch[1].includes('gradient')) {
+      const area = element.offsetWidth * element.offsetHeight;
+      const hasReasonableSize = area > 1000;
+      const hasFewChildren = element.children.length <= 2;
+      
+      if (hasReasonableSize && hasFewChildren) {
+        return 'Image';
+      }
+    }
+  }
+
+    if (tagName === 'button') return 'Button';
+    if (tagName === 'a' && element.getAttribute('href')) return 'Button';
+    if (element.getAttribute('role') === 'button') return 'Button';
+
+    const buttonClasses = ['btn', 'button', 'cta', 'action-button'];
+    const hasButtonClass = buttonClasses.some(cls =>
+      element.classList.contains(cls) || element.classList.contains('btn-' + cls)
+    );
+
+    if (hasButtonClass && element.textContent && element.textContent.trim().length > 0) {
+      return 'Button';
+    }
+
+    const textTags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'label', 'li'];
+    if (textTags.includes(tagName)) {
+      return 'Text';
+    }
+
+    if (tagName === 'div') {
+      const hasDirectText = Array.from(element.childNodes).some(node => 
+        node.nodeType === Node.TEXT_NODE && node.textContent && node.textContent.trim().length > 0
+      );
+      
+      if (hasDirectText && !element.querySelector('div, section, article, main, header, footer')) {
+        return 'Text';
+      }
+      
+      return 'Div';
+    }
+
+    if (tagName === 'article') {
+      return 'Article';
+    }
+
+    if (tagName === 'a' && !element.getAttribute('href')) {
+      return 'Text';
+    }
+
+    return 'Section';
+  };
+
+  const extractOriginalUrl = (url) => {
+    if (!url) return url;
+
+    if (url.includes('/_next/')) {
+      try {
+        const urlObj = new URL(url);
+        const originalPath = urlObj.searchParams.get('url');
+        if (originalPath) {
+          return originalPath;
+        }
+      } catch (e) {
+        return url;
+      }
+    }
+    
+    if (url.includes('.webild.io')) {
+      try {
+        const urlObj = new URL(url);
+        return urlObj.pathname;
+      } catch (e) {
+        return url;
+      }
+    }
+
+    return url;
+  };
+
+  const getMediaTypeFromUrl = (url) => {
+    const videoExts = ['.mp4', '.webm', '.ogg', '.mov', '.avi', '.mkv', '.m4v', '.wmv'];
+    const imageExts = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp', '.ico', '.tiff', '.avif'];
+    try {
+      const pathname = new URL(url).pathname.toLowerCase();
+      if (videoExts.some(function(ext) { return pathname.endsWith(ext); })) return 'video';
+      if (imageExts.some(function(ext) { return pathname.endsWith(ext); })) return 'image';
+    } catch(e) {}
+    return 'unknown';
+  };
+
+  const swapMediaElement = (oldEl, newTag, newSrc) => {
+    const newEl = document.createElement(newTag);
+    Array.from(oldEl.attributes).forEach(function(attr) {
+      if (attr.name !== 'src' && attr.name !== 'alt' && attr.name !== 'srcset' && attr.name !== 'autoplay' && attr.name !== 'loop' && attr.name !== 'muted' && attr.name !== 'playsinline') {
+        try { newEl.setAttribute(attr.name, attr.value); } catch(e) {}
+      }
+    });
+    newEl.style.cssText = oldEl.style.cssText;
+    if (newTag === 'video') {
+      newEl.setAttribute('autoplay', '');
+      newEl.setAttribute('loop', '');
+      newEl.setAttribute('muted', '');
+      newEl.setAttribute('playsinline', '');
+    }
+    newEl.src = newSrc;
+    if (oldEl.parentNode) {
+      oldEl.parentNode.replaceChild(newEl, oldEl);
+    }
+    return newEl;
+  };
+
+  const getElementInfo = (element, assignId = false) => {
+    const rect = element.getBoundingClientRect();
+    const tagName = element.tagName.toLowerCase();
+    const selector = getUniqueSelector(element, assignId);
+    const sectionId = getSectionId(element);
+    
+    let className = undefined;
+    try {
+      if (element.className) {
+        if (typeof element.className === 'string') {
+          className = element.className;
+        } else if (element.className.baseVal !== undefined) {
+          className = element.className.baseVal;
+        }
+      }
+    } catch (e) {}
+    
+    const info = {
+      tagName: tagName,
+      id: element.id || undefined,
+      className: className,
+      selector: selector,
+      elementType: null,
+      sectionId: sectionId,
+      boundingBox: {
+        x: rect.left,
+        y: rect.top,
+        width: rect.width,
+        height: rect.height
+      }
+    };
+    
+    if (tagName === 'img') {
+      const originalSrc = extractOriginalUrl(element.src);
+      info.imageData = {
+        src: originalSrc,
+        alt: element.alt || undefined,
+        naturalWidth: element.naturalWidth,
+        naturalHeight: element.naturalHeight,
+        isBackground: false
+      };
+    }
+
+    if (tagName === 'video') {
+      const rawSrc = element.src || element.currentSrc || (element.querySelector('source') && element.querySelector('source').src) || '';
+      const resolvedSrc = extractOriginalUrl(rawSrc);
+      info.imageData = {
+        src: resolvedSrc,
+        alt: element.getAttribute('aria-label') || undefined,
+        isBackground: false,
+        isVideo: true
+      };
+    }
+
+    const computedStyle = window.getComputedStyle(element);
+    const backgroundImage = computedStyle.backgroundImage;
+    if (backgroundImage && backgroundImage !== 'none') {
+      const urlMatch = backgroundImage.match(/url(['"]?([^'")]+)['"]?)/);
+      if (urlMatch) {
+        const originalBgSrc = extractOriginalUrl(urlMatch[1]);
+        if (tagName !== 'img') {
+          info.imageData = {
+            src: originalBgSrc,
+            isBackground: true
+          };
+        } else {
+          if (!info.imageData) info.imageData = {};
+          info.imageData.backgroundImageSrc = originalBgSrc;
+        }
+      }
+    }
+    
+    const elementType = getElementType(element);
+    info.elementType = elementType;
+    
+    if (elementType === 'Button') {
+      const buttonText = element.textContent?.trim() || element.value || element.getAttribute('aria-label') || '';
+      const buttonHref = element.getAttribute('href') ||
+                        element.getAttribute('data-href') ||
+                        element.getAttribute('onclick') ||
+                        element.dataset?.link ||
+                        undefined;
+
+      info.buttonData = {
+        text: buttonText,
+        href: buttonHref
+      };
+    }
+
+    if (elementType === 'Text') {
+      info.textContent = element.textContent || '';
+    }
+    
+    return info;
+  };
+  
+  const isValidElement = (element) => {
+    if (!isActive) return false;
+    const tagName = element.tagName?.toLowerCase();
+    if (invalidElements.includes(tagName)) return false;
+    const isImage = tagName === 'img';
+    const isVideo = tagName === 'video';
+    if (isImage || isVideo) return true;
+    const hasInnerHTML = element.innerHTML && element.innerHTML.trim().length > 0;
+    const hasTextContent = element.textContent && element.textContent.trim().length > 0;
+    const hasChildren = element.children && element.children.length > 0;
+    if (!hasInnerHTML && !hasTextContent && !hasChildren) {
+      return false;
+    }
+    const hasBackgroundImage = window.getComputedStyle(element).backgroundImage !== 'none';
+    if (hasBackgroundImage && !hasChildren && !hasTextContent) {
+      return false;
+    }
+    
+    return true;
+  };
+
+  const getMostSpecificElement = (x, y) => {
+    const elements = document.elementsFromPoint(x, y);
+    const validElements = elements.filter(el =>
+      isValidElement(el) &&
+      !el.classList.contains('webild-hover-overlay') &&
+      !el.classList.contains('webild-element-type-label')
+    );
+
+    if (validElements.length === 0) return null;
+    const scoredElements = validElements.map(element => {
+      let score = 0;
+      const rect = element.getBoundingClientRect();
+      const tagName = element.tagName.toLowerCase();
+      const computedStyle = window.getComputedStyle(element);
+      let depth = 0;
+      let current = element;
+      while (current && current !== document.body) {
+        depth++;
+        current = current.parentElement;
+      }
+      score += depth * 2;
+      const hasDirectText = Array.from(element.childNodes).some(node => 
+        node.nodeType === Node.TEXT_NODE && node.textContent && node.textContent.trim().length > 0
+      );
+
+      const hasImages = element.tagName === 'IMG' || element.tagName === 'VIDEO' || computedStyle.backgroundImage !== 'none' || element.querySelector('img') || element.querySelector('video');
+      const isInteractive = ['BUTTON', 'A', 'INPUT', 'SELECT', 'TEXTAREA'].includes(element.tagName);
+      const hasFewChildren = element.children.length <= 3;
+      const area = rect.width * rect.height;
+      const viewportArea = window.innerWidth * window.innerHeight;
+      const isSmallElement = area < viewportArea * 0.1;
+      if (hasDirectText) score += 20;
+      if (hasImages) score += 15;
+      if (isInteractive) score += 25;
+      if (hasFewChildren) score += 10;
+      if (isSmallElement) score += 5;
+      if (area > viewportArea * 0.3) score -= 30;
+      if (element.hasAttribute('data-section')) score -= 15;
+      if (['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(tagName)) score += 20;
+      if (['p', 'span', 'label'].includes(tagName)) score += 15;
+      if (tagName === 'div' && !hasDirectText && element.children.length > 2) score -= 10;
+
+      return { element, score };
+    });
+    scoredElements.sort((a, b) => b.score - a.score);
+    return scoredElements[0]?.element || validElements[0];
+  };
+
+  const isTextElement = (element) => {
+    const elementType = getElementType(element);
+    return elementType === 'Text';
+  };
+
+  const isButtonElement = (element) => {
+    const elementType = getElementType(element);
+    return elementType === 'Button';
+  };
+
+  const updateButtonText = (element, newText) => {
+    const textNodes = [];
+    const walker = document.createTreeWalker(
+      element,
+      NodeFilter.SHOW_TEXT,
+      null
+    );
+
+    let node;
+    while (node = walker.nextNode()) {
+      if (node.textContent && node.textContent.trim()) {
+        textNodes.push(node);
+      }
+    }
+
+    if (textNodes.length > 0) {
+      textNodes[0].textContent = newText;
+      for (let i = 1; i < textNodes.length; i++) {
+        textNodes[i].textContent = '';
+      }
+    } else {
+      element.textContent = newText;
+    }
+  };
+
+  const makeEditable = (element, clickEvent) => {
+    if (!isTextElement(element)) return;
+    
+    originalContent = element.textContent;
+    element.contentEditable = 'true';
+    
+    if (!element.dataset.webildOriginalWhiteSpace) {
+      const computedStyle = window.getComputedStyle(element);
+      element.dataset.webildOriginalWhiteSpace = computedStyle.whiteSpace;
+      element.dataset.webildOriginalWordWrap = computedStyle.wordWrap;
+      element.dataset.webildOriginalOverflowWrap = computedStyle.overflowWrap;
+      element.dataset.webildOriginalOverflow = computedStyle.overflow;
+    }
+    
+    element.style.whiteSpace = 'pre-wrap';
+    element.style.wordWrap = 'break-word';
+    element.style.overflowWrap = 'break-word';
+    element.style.overflow = 'visible';
+    
+    element.focus();
+    isEditing = true;
+    
+    window.parent.postMessage({
+      type: 'webild-text-editing-started',
+      data: { selector: getElementInfo(element).selector }
+    }, '*');
+    
+    const handleBeforeInput = (e) => {
+      // Prevent deletion if it would leave the element empty
+      const currentText = element.textContent || '';
+      const inputType = e.inputType;
+      
+      // Check if this is a delete operation that would leave the element empty
+      if ((inputType === 'deleteContentBackward' || inputType === 'deleteContentForward' || inputType === 'deleteByCut') && currentText.length <= 1) {
+        e.preventDefault();
+        element.textContent = ' ';
+        // Move cursor to the beginning
+        const range = document.createRange();
+        const sel = window.getSelection();
+        range.setStart(element.firstChild || element, 0);
+        range.collapse(true);
+        sel.removeAllRanges();
+        sel.addRange(range);
+      }
+    };
+    
+    const handleInput = () => {
+      const elementInfo = getElementInfo(element);
+      let currentText = element.textContent;
+      
+      // Ensure there's always at least a space to keep the element editable
+      if (currentText === '' || currentText === null || currentText.length === 0) {
+        element.textContent = ' ';
+        currentText = ' ';
+        // Move cursor to the beginning
+        try {
+          const range = document.createRange();
+          const sel = window.getSelection();
+          range.setStart(element.firstChild || element, 0);
+          range.collapse(true);
+          sel.removeAllRanges();
+          sel.addRange(range);
+        } catch (e) {
+          // Ignore cursor positioning errors
+        }
+      }
+
+      window.parent.postMessage({
+        type: 'webild-element-changed',
+        data: {
+          type: 'updateText',
+          selector: elementInfo.selector,
+          oldValue: originalContent,
+          newValue: currentText,
+          elementType: elementInfo.elementType,
+          sectionId: elementInfo.sectionId,
+          timestamp: Date.now()
+        }
+      }, '*');
+      
+      if (currentText !== originalContent) {
+        window.parent.postMessage({
+          type: 'webild-text-changed',
+          data: { 
+            selector: elementInfo.selector,
+            hasChanges: true
+          }
+        }, '*');
+      }
+    };
+    
+    element.addEventListener('beforeinput', handleBeforeInput);
+    element.addEventListener('input', handleInput);
+    element.dataset.inputHandler = 'true';
+    element.dataset.beforeInputHandler = 'true';
+    
+    if (clickEvent && element.childNodes.length > 0) {
+      try {
+        let range = null;
+        
+        if (document.caretRangeFromPoint) {
+          range = document.caretRangeFromPoint(clickEvent.clientX, clickEvent.clientY);
+        } else if (document.caretPositionFromPoint) {
+          const position = document.caretPositionFromPoint(clickEvent.clientX, clickEvent.clientY);
+          if (position) {
+            range = document.createRange();
+            range.setStart(position.offsetNode, position.offset);
+            range.collapse(true);
+          }
+        }
+        
+        if (range) {
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }
+      } catch (e) {
+        console.warn('[Webild] Could not set caret position:', e);
+      }
+    }
+  };
+  
+  const makeUneditable = (element, save = false) => {
+    if (!element || element.contentEditable !== 'true') return;
+    
+    element.contentEditable = 'false';
+    isEditing = false;
+    
+    if (element.dataset.webildOriginalWhiteSpace) {
+      element.style.whiteSpace = element.dataset.webildOriginalWhiteSpace === 'normal' ? '' : element.dataset.webildOriginalWhiteSpace;
+      delete element.dataset.webildOriginalWhiteSpace;
+    }
+    if (element.dataset.webildOriginalWordWrap) {
+      element.style.wordWrap = element.dataset.webildOriginalWordWrap === 'normal' ? '' : element.dataset.webildOriginalWordWrap;
+      delete element.dataset.webildOriginalWordWrap;
+    }
+    if (element.dataset.webildOriginalOverflowWrap) {
+      element.style.overflowWrap = element.dataset.webildOriginalOverflowWrap === 'normal' ? '' : element.dataset.webildOriginalOverflowWrap;
+      delete element.dataset.webildOriginalOverflowWrap;
+    }
+    if (element.dataset.webildOriginalOverflow) {
+      element.style.overflow = element.dataset.webildOriginalOverflow === 'visible' ? '' : element.dataset.webildOriginalOverflow;
+      delete element.dataset.webildOriginalOverflow;
+    }
+    
+    if (element.dataset.beforeInputHandler === 'true') {
+      element.removeEventListener('beforeinput', () => {});
+      delete element.dataset.beforeInputHandler;
+    }
+    
+    if (element.dataset.inputHandler === 'true') {
+      element.removeEventListener('input', () => {});
+      delete element.dataset.inputHandler;
+    }
+    
+    window.parent.postMessage({
+      type: 'webild-text-editing-ended',
+      data: { selector: getElementInfo(element).selector }
+    }, '*');
+    
+    if (save && originalContent !== element.textContent) {
+      const elementInfo = getElementInfo(element);
+      let finalText = element.textContent;
+      
+      // Trim the final text and convert space-only to empty string for saving
+      if (finalText === ' ' || finalText.trim() === '') {
+        finalText = '';
+        // Update the actual element text to empty for display
+        element.textContent = '';
+      }
+      
+      const change = {
+        type: 'updateText',
+        selector: elementInfo.selector,
+        oldValue: originalContent,
+        newValue: finalText,
+        elementType: elementInfo.elementType,
+        sectionId: elementInfo.sectionId,
+        timestamp: Date.now()
+      };
+
+      saveChangeToStorage(change);
+
+      window.parent.postMessage({
+        type: 'webild-element-changed',
+        data: change
+      }, '*');
+    } else if (!save && originalContent !== null) {
+      element.textContent = originalContent;
+    }
+    
+    originalContent = null;
+  };
+  
+  const createHoverOverlay = (element) => {
+    const rect = element.getBoundingClientRect();
+    const overlay = document.createElement('div');
+    overlay.className = 'webild-hover-overlay';
+    overlay.style.cssText =
+      'position: fixed !important;' +
+      'top: ' + (rect.top - 2) + 'px !important;' +
+      'left: ' + (rect.left - 2) + 'px !important;' +
+      'width: ' + (rect.width + 4) + 'px !important;' +
+      'height: ' + (rect.height + 4) + 'px !important;' +
+      'background-color: rgba(90, 113, 230, 0.15) !important;' +
+      'pointer-events: none !important;' +
+      'z-index: 999998 !important;' +
+      'transition: all 0.15s ease !important;';
+    document.body.appendChild(overlay);
+    return overlay;
+  };
+  
+  const removeHoverOverlay = () => {
+    if (hoverOverlay) {
+      hoverOverlay.remove();
+      hoverOverlay = null;
+    }
+  };
+  
+  const showElementTypeLabel = (element, elementType) => {
+    if (!elementType) return;
+
+    removeElementTypeLabel();
+
+    const rect = element.getBoundingClientRect();
+    elementTypeLabel = document.createElement('div');
+    elementTypeLabel.className = 'webild-element-type-label';
+    const ariaLabel = element.getAttribute('aria-label');
+    let labelText;
+    
+    if (elementType === 'Div') {
+      labelText = 'Div';
+    } else if (elementType === 'Article') {
+      labelText = 'Article';
+    } else if (elementType === 'Section') {
+      labelText = ariaLabel || 'Section';
+    } else {
+      labelText = elementType;
+    }
+    
+    elementTypeLabel.textContent = labelText;
+    document.body.appendChild(elementTypeLabel);
+    const labelRect = elementTypeLabel.getBoundingClientRect();
+    let labelTop = rect.top - labelRect.height - 2;
+    let labelLeft = rect.left - 3;
+    let isLabelOnTop = true;
+    if (labelTop < 0) {
+      labelTop = rect.bottom + 1;
+      isLabelOnTop = false;
+    }
+    if (labelTop + labelRect.height > window.innerHeight) {
+      labelTop = rect.bottom - labelRect.height;
+      isLabelOnTop = false;
+      if (labelTop < 0) {
+        labelTop = rect.top;
+        isLabelOnTop = true;
+      }
+    }
+    if (labelLeft + labelRect.width > window.innerWidth) {
+      labelLeft = window.innerWidth - labelRect.width;
+    }
+    if (labelLeft < 0) {
+      labelLeft = 0;
+    }
+    if (isLabelOnTop) {
+      elementTypeLabel.classList.add('label-top');
+    } else {
+      elementTypeLabel.classList.add('label-bottom');
+    }
+
+    elementTypeLabel.style.cssText =
+      'left: ' + labelLeft + 'px !important;' +
+      'top: ' + labelTop + 'px !important;' +
+      'transform: none !important;';
+  };
+  
+  const removeElementTypeLabel = () => {
+    if (elementTypeLabel) {
+      elementTypeLabel.remove();
+      elementTypeLabel = null;
+    }
+  };
+  
+  const handleMouseOver = (e) => {
+    if (!isActive) return;
+
+    lastMouseX = e.clientX;
+    lastMouseY = e.clientY;
+
+    const target = getMostSpecificElement(e.clientX, e.clientY) || e.target;
+
+    if (!isValidElement(target) || target === hoveredElement || target === selectedElement) {
+      return;
+    }
+    
+    if (hoveredElement && hoveredElement !== selectedElement) {
+      hoveredElement.classList.remove(hoverClass);
+      if (hoveredElement.dataset.webildOriginalPosition) {
+        hoveredElement.style.position = hoveredElement.dataset.webildOriginalPosition === 'none' ? '' : hoveredElement.dataset.webildOriginalPosition;
+        delete hoveredElement.dataset.webildOriginalPosition;
+      }
+      removeHoverOverlay();
+      removeElementTypeLabel();
+    }
+    
+    hoveredElement = target;
+    
+    const computedStyle = window.getComputedStyle(target);
+    const currentPosition = computedStyle.position;
+    
+    if (currentPosition === 'static' || currentPosition === '') {
+      hoveredElement.dataset.webildOriginalPosition = currentPosition || 'none';
+      hoveredElement.style.position = 'relative';
+    }
+    
+    hoveredElement.classList.add(hoverClass);
+    
+    if ((!selectedElement || selectedElement !== target) && !isScrolling) {
+      hoverOverlay = createHoverOverlay(target);
+    }
+    
+    const elementType = getElementType(target);
+    showElementTypeLabel(target, elementType);
+    
+    window.parent.postMessage({
+      type: 'webild-element-hover',
+      data: getElementInfo(target, false)
+    }, '*');
+  };
+  
+  const handleMouseOut = (e) => {
+    if (!isActive) return;
+    
+    if (hoveredElement && hoveredElement !== selectedElement) {
+      hoveredElement.classList.remove(hoverClass);
+      
+      if (hoveredElement.dataset.webildOriginalPosition) {
+        hoveredElement.style.position = hoveredElement.dataset.webildOriginalPosition === 'none' ? '' : hoveredElement.dataset.webildOriginalPosition;
+        delete hoveredElement.dataset.webildOriginalPosition;
+      }
+      
+      removeHoverOverlay();
+      removeElementTypeLabel();
+      
+      hoveredElement = null;
+      
+      window.parent.postMessage({
+        type: 'webild-element-hover',
+        data: null
+      }, '*');
+    }
+  };
+  
+  const handleClick = (e) => {
+  if (!isActive) return;
+
+  if (isEditing) {
+    e.stopPropagation();
+    return;
+  }
+
+  e.preventDefault();
+  e.stopPropagation();
+
+  const target = getMostSpecificElement(e.clientX, e.clientY) || e.target;  
+  if (!isValidElement(target)) return;
+    
+    if (selectedElement && selectedElement !== target) {
+      makeUneditable(selectedElement, false);
+      selectedElement.classList.remove(selectedClass);
+      selectedElement.classList.remove(hoverClass);
+      
+      if (selectedElement.dataset.webildOriginalPosition) {
+        selectedElement.style.position = selectedElement.dataset.webildOriginalPosition === 'none' ? '' : selectedElement.dataset.webildOriginalPosition;
+        delete selectedElement.dataset.webildOriginalPosition;
+      }
+      
+      removeHoverOverlay();
+      removeElementTypeLabel();
+    }
+    
+    if (selectedElement === target) {
+      if (target.dataset.webildOriginalPosition) {
+        target.style.position = target.dataset.webildOriginalPosition === 'none' ? '' : target.dataset.webildOriginalPosition;
+        delete target.dataset.webildOriginalPosition;
+      }
+      
+      removeHoverOverlay();
+      removeElementTypeLabel();
+      
+      selectedElement = null;
+      window.parent.postMessage({
+        type: 'webild-element-selected',
+        data: null
+      }, '*');
+      return;
+    }
+    
+    selectedElement = target;
+    selectedElement.classList.add(selectedClass);
+    
+    removeHoverOverlay();
+    removeElementTypeLabel();
+    
+    if (hoveredElement === target) {
+      hoveredElement.classList.remove(hoverClass);
+      hoveredElement = null;
+    }
+    
+    const elementInfo = getElementInfo(target, true);
+    selectedElement.dataset.webildSelector = elementInfo.selector;
+    showElementTypeLabel(target, elementInfo.elementType);
+    
+    window.parent.postMessage({
+      type: 'webild-element-selected',
+      data: elementInfo
+    }, '*');
+    
+    if (isTextElement(target)) {
+      setTimeout(() => makeEditable(target, e), 50);
+    }
+  };
+  
+  const handleKeyDown = (e) => {
+    if (!isActive) return;
+    if (!isEditing || !selectedElement) return;
+    
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      makeUneditable(selectedElement, true);
+    } else if (e.key === 'Escape') {
+      e.preventDefault();
+      makeUneditable(selectedElement, false);
+    }
+  };
+  
+  const handleBlur = (e) => {
+    if (!isActive) return;
+    if (isEditing && selectedElement && e.target === selectedElement) {
+      makeUneditable(selectedElement, true);
+    }
+  };
+  
+  let lastMouseX = 0;
+  let lastMouseY = 0;
+
+  const handleScroll = () => {
+    if (!isActive) return;
+    
+    if (isEditing) return;
+    
+    if (selectedElement) {
+      makeUneditable(selectedElement, false);
+      selectedElement.classList.remove(selectedClass);
+      if (selectedElement.dataset.webildOriginalPosition) {
+        selectedElement.style.position = selectedElement.dataset.webildOriginalPosition === 'none' ? '' : selectedElement.dataset.webildOriginalPosition;
+        delete selectedElement.dataset.webildOriginalPosition;
+      }
+      selectedElement = null;
+
+      window.parent.postMessage({
+        type: 'webild-element-selected',
+        data: null
+      }, '*');
+    }
+
+    if (hoveredElement) {
+      hoveredElement.classList.remove(hoverClass);
+      if (hoveredElement.dataset.webildOriginalPosition) {
+        hoveredElement.style.position = hoveredElement.dataset.webildOriginalPosition === 'none' ? '' : hoveredElement.dataset.webildOriginalPosition;
+        delete hoveredElement.dataset.webildOriginalPosition;
+      }
+      hoveredElement = null;
+
+      window.parent.postMessage({
+        type: 'webild-element-hover',
+        data: null
+      }, '*');
+    }
+
+    removeHoverOverlay();
+    removeElementTypeLabel();
+
+    isScrolling = true;
+
+    if (scrollTimeout) {
+      clearTimeout(scrollTimeout);
+    }
+
+    scrollTimeout = setTimeout(() => {
+      isScrolling = false;
+
+      if (lastMouseX > 0 && lastMouseY > 0) {
+        const target = getMostSpecificElement(lastMouseX, lastMouseY);
+        if (target && isValidElement(target) && target !== selectedElement) {
+          hoveredElement = target;
+
+          const computedStyle = window.getComputedStyle(target);
+          const currentPosition = computedStyle.position;
+
+          if (currentPosition === 'static' || currentPosition === '') {
+            hoveredElement.dataset.webildOriginalPosition = currentPosition || 'none';
+            hoveredElement.style.position = 'relative';
+          }
+
+          hoveredElement.classList.add(hoverClass);
+          hoverOverlay = createHoverOverlay(target);
+
+          const elementType = getElementType(target);
+          showElementTypeLabel(target, elementType);
+
+          window.parent.postMessage({
+            type: 'webild-element-hover',
+            data: getElementInfo(target, false)
+          }, '*');
+        }
+      }
+    }, 150);
+
+    window.parent.postMessage({
+      type: 'webild-iframe-scroll'
+    }, '*');
+  };
+  
+  const getStorageKey = () => {
+    const url = new URL(window.location.href);
+    const pathParts = url.pathname.split('/').filter(Boolean);
+    return 'webild-changes-' + pathParts.join('-');
+  };
+
+  const saveChangeToStorage = (change) => {
+    try {
+      const storageKey = getStorageKey();
+      const existingChanges = JSON.parse(localStorage.getItem(storageKey) || '[]');
+
+      const filteredChanges = existingChanges.filter(c => {
+        return !(c.oldValue === change.oldValue && c.sectionId === change.sectionId);
+      });
+      filteredChanges.push(change);
+
+      localStorage.setItem(storageKey, JSON.stringify(filteredChanges));
+
+      window.parent.postMessage({
+        type: 'webild-change-saved-locally',
+        data: { change, allChanges: filteredChanges }
+      }, '*');
+    } catch (error) {
+      console.error('Failed to save change to localStorage:', error);
+    }
+  };
+
+  const clearLocalChanges = () => {
+    try {
+      const storageKey = getStorageKey();
+      localStorage.removeItem(storageKey);
+      window.parent.postMessage({
+        type: 'webild-local-changes-cleared',
+        data: {}
+      }, '*');
+    } catch (error) {
+      console.error('Failed to clear local changes:', error);
+    }
+  };
+
+  const handleMessage = (e) => {
+    if (!e.data || !e.data.type) return;
+
+    if (e.data.type === 'webild-activate-editor') {
+      if (!isActive) {
+        isActive = true;
+        window.parent.postMessage({ type: 'webild-editor-activated' }, '*');
+      }
+      return;
+    }
+
+    if (e.data.type === 'webild-deactivate-editor') {
+      if (isActive) {
+        isActive = false;
+
+        if (selectedElement) {
+          makeUneditable(selectedElement, false);
+          selectedElement.classList.remove(selectedClass);
+          selectedElement = null;
+        }
+        if (hoveredElement) {
+          hoveredElement.classList.remove(hoverClass);
+          hoveredElement = null;
+        }
+
+        removeHoverOverlay();
+        removeElementTypeLabel();
+        window.parent.postMessage({ type: 'webild-editor-deactivated' }, '*');
+      }
+      return;
+    }
+
+    if (e.data.type === 'webild-clear-local-changes') {
+      clearLocalChanges();
+      return;
+    }
+
+    if (e.data.type === 'webild-cancel-changes') {
+      try {
+        const storageKey = getStorageKey();
+        const savedChanges = localStorage.getItem(storageKey);
+        if (savedChanges) {
+          const changes = JSON.parse(savedChanges);
+          changes.forEach(change => {
+            try {
+              const element = document.querySelector(change.selector);
+              if (!element) return;
+
+              if (change.type === 'updateText') {
+                if (isTextElement(element)) {
+                  element.textContent = change.oldValue;
+                }
+              } else if (change.type === 'updateButton') {
+                if (isButtonElement(element)) {
+                  updateButtonText(element, change.oldValue);
+                }
+              } else if (change.type === 'replaceImage') {
+                const revertTag = element.tagName.toLowerCase();
+                const isBackground = revertTag !== 'img' && revertTag !== 'video';
+                if (isBackground) {
+                  element.style.backgroundImage = change.oldValue ? 'url(' + change.oldValue + ')' : '';
+                } else {
+                  const oldMediaType = getMediaTypeFromUrl(change.oldValue);
+                  if (revertTag === 'video' && oldMediaType === 'image') {
+                    swapMediaElement(element, 'img', change.oldValue);
+                  } else if (revertTag === 'img' && oldMediaType === 'video') {
+                    swapMediaElement(element, 'video', change.oldValue);
+                  } else if (revertTag === 'video') {
+                    element.src = change.oldValue;
+                    element.load();
+                  } else {
+                    element.src = change.oldValue;
+                  }
+                }
+              }
+            } catch (err) {
+              console.warn('[Webild] Failed to revert change:', err);
+            }
+          });
+        }
+        clearLocalChanges();
+      } catch (error) {
+        console.error('[Webild] Failed to cancel changes:', error);
+      }
+      return;
+    }
+
+    if (e.data.type === 'webild-update-text') {
+      const { selector, newValue, oldValue, sectionId } = e.data.data;
+      try {
+        let element = null;
+        
+        if (selectedElement && isTextElement(selectedElement)) {
+          element = selectedElement;
+        }
+        else if (selector) {
+          try {
+            element = document.querySelector(selector);
+          } catch (err) {
+            console.warn('[Webild] Invalid selector:', selector);
+          }
+        }
+        
+        if (!element && sectionId) {
+          const sectionElement = document.querySelector('[data-section="' + sectionId + '"]');
+          if (sectionElement) {
+            const textElements = sectionElement.querySelectorAll('h1, h2, h3, h4, h5, h6, p, span, a, button, div');
+            for (let i = 0; i < textElements.length; i++) {
+              const el = textElements[i];
+              if (isTextElement(el) && el.textContent.trim() === (oldValue || '').trim()) {
+                element = el;
+                const newSelector = getUniqueSelector(element, true);
+                if (newSelector) {
+                  element.dataset.webildSelector = newSelector;
+                }
+                break;
+              }
+            }
+          }
+        }
+        
+        if (element && isTextElement(element)) {
+          element.textContent = newValue;
+          const finalSelector = element.dataset.webildSelector || getUniqueSelector(element, true);
+          
+          window.parent.postMessage({
+            type: 'webild-text-update-success',
+            data: {
+              selector: finalSelector,
+              newValue: newValue
+            }
+          }, '*');
+        } else {
+          window.parent.postMessage({
+            type: 'webild-text-update-failed',
+            data: { selector, newValue }
+          }, '*');
+        }
+      } catch (error) {
+        window.parent.postMessage({
+          type: 'webild-text-update-failed',
+          data: { selector, newValue, error: error.message }
+        }, '*');
+      }
+      return;
+    }
+
+    if (e.data.type === 'webild-update-button') {
+      const { selector, text, href } = e.data.data;
+      try {
+        const element = document.querySelector(selector);
+        if (element && isButtonElement(element)) {
+          if (text !== undefined) {
+            updateButtonText(element, text);
+          }
+          if (href !== undefined) {
+            if (element.tagName.toLowerCase() === 'a') {
+              element.href = href;
+            } else {
+              element.setAttribute('data-href', href);
+            }
+          }
+        }
+      } catch (error) {
+        console.error('[Webild] Invalid selector for button update:', selector, error);
+      }
+      return;
+    }
+
+    if (!isActive) return;
+
+    if (e.data.type === 'webild-replace-image') {
+      const { selector, newSrc, isBackground, allowMediaTypeSwap } = e.data.data;
+      let element = null;
+
+      try {
+        element = document.querySelector(selector);
+      } catch {
+        window.parent.postMessage({
+          type: 'webild-image-replacement-error',
+          data: { selector, message: 'Invalid selector: ' + error.message, success: false }
+        }, '*');
+        return;
+      }
+
+      if (!element) {
+        window.parent.postMessage({
+          type: 'webild-image-replacement-error',
+          data: { selector, message: 'Element not found', success: false }
+        }, '*');
+        return;
+      }
+
+      try {
+        let replaced = false;
+        let oldValue = '';
+
+        if (isBackground) {
+          oldValue = window.getComputedStyle(element).backgroundImage;
+          element.style.backgroundImage = 'url(\'' + newSrc + '\')';
+          replaced = true;
+        } else if (element.tagName.toLowerCase() === 'img') {
+          oldValue = element.src;
+          const newMediaType = getMediaTypeFromUrl(newSrc);
+          if (newMediaType === 'video' && allowMediaTypeSwap) {
+            const swapped = swapMediaElement(element, 'video', newSrc);
+            if (selectedElement === element) selectedElement = swapped;
+            element = swapped;
+          } else {
+            element.src = newSrc;
+          }
+          element.srcset = ''; 
+          replaced = true;
+        } else if (element.tagName.toLowerCase() === 'video') {
+          oldValue = element.src || element.currentSrc || '';
+          const newMediaType = getMediaTypeFromUrl(newSrc);
+          const sources = element.querySelectorAll('source');
+          if (newMediaType === 'image' && allowMediaTypeSwap) {
+            const swapped = swapMediaElement(element, 'img', newSrc);
+            if (selectedElement === element) selectedElement = swapped;
+            element = swapped;
+          } else {
+            if (sources.length > 0) {
+              sources.forEach(function(source) { source.src = newSrc; });
+              element.load();
+            } else {
+              element.src = newSrc;
+              element.load();
+            }
+          }
+          replaced = true;
+        } else {
+          const hasBackgroundImage = window.getComputedStyle(element).backgroundImage !== 'none';
+          if (hasBackgroundImage) {
+            oldValue = window.getComputedStyle(element).backgroundImage;
+            element.style.backgroundImage = 'url(\'' + newSrc + '\')';
+            replaced = true;
+          }
+        }
+
+        if (replaced) {
+          const elementInfo = getElementInfo(element);
+
+          let cleanOldValue = oldValue;
+          if (oldValue.includes('url(')) {
+            const urlMatch = oldValue.match(/url(['"]?([^'")]+)['"]?)/);
+            if (urlMatch) {
+              cleanOldValue = urlMatch[1];
+            }
+          }
+
+          cleanOldValue = extractOriginalUrl(cleanOldValue);
+
+          const change = {
+            type: 'replaceImage',
+            selector: selector,
+            oldValue: cleanOldValue,
+            newValue: newSrc,
+            elementType: elementInfo.elementType,
+            sectionId: elementInfo.sectionId,
+            timestamp: Date.now()
+          };
+
+          saveChangeToStorage(change);
+
+          window.parent.postMessage({
+            type: 'webild-element-changed',
+            data: change
+          }, '*');
+
+          window.parent.postMessage({
+            type: 'webild-image-replaced',
+            data: { selector, newSrc, success: true }
+          }, '*');
+        } else {
+          window.parent.postMessage({
+            type: 'webild-image-replacement-error',
+            data: { selector, message: 'Could not determine how to replace image', success: false }
+          }, '*');
+        }
+      } catch (error) {
+        window.parent.postMessage({
+          type: 'webild-image-replacement-error',
+          data: { selector, message: error.message || 'Failed to replace image', success: false }
+        }, '*');
+      }
+    }
+  };
+  
+  document.addEventListener('mouseover', handleMouseOver, true);
+  document.addEventListener('mouseout', handleMouseOut, true);
+  document.addEventListener('click', handleClick, true);
+  document.addEventListener('keydown', handleKeyDown, true);
+  document.addEventListener('blur', handleBlur, true);
+  window.addEventListener('scroll', handleScroll, true);
+  window.addEventListener('message', handleMessage, true);
+  
+  let lastPathname = window.location.pathname;
+  
+  const notifyPageChange = () => {
+    window.parent.postMessage({
+      type: 'webild-page-changed',
+      data: { pathname: window.location.pathname }
+    }, '*');
+  };
+  
+  window.addEventListener('popstate', () => {
+    if (lastPathname !== window.location.pathname) {
+      lastPathname = window.location.pathname;
+      notifyPageChange();
+    }
+  }, true);
+  
+  const urlCheckInterval = setInterval(() => {
+    if (lastPathname !== window.location.pathname) {
+      lastPathname = window.location.pathname;
+      notifyPageChange();
+    }
+  }, 500);
+  
+  notifyPageChange();
+  
+  window.webildCleanup = () => {
+    isActive = false;
+    
+    if (selectedElement) {
+      makeUneditable(selectedElement, false);
+    }
+    
+    removeHoverOverlay();
+    removeElementTypeLabel();
+    
+    if (urlCheckInterval) {
+      clearInterval(urlCheckInterval);
+    }
+    
+    document.removeEventListener('mouseover', handleMouseOver, true);
+    document.removeEventListener('mouseout', handleMouseOut, true);
+    document.removeEventListener('click', handleClick, true);
+    document.removeEventListener('keydown', handleKeyDown, true);
+    document.removeEventListener('blur', handleBlur, true);
+    window.removeEventListener('scroll', handleScroll, true);
+    window.removeEventListener('message', handleMessage, true);
+    
+    document.querySelectorAll('.' + hoverClass).forEach(el => {
+      el.classList.remove(hoverClass);
+    });
+    document.querySelectorAll('.' + selectedClass).forEach(el => {
+      el.classList.remove(selectedClass);
+    });
+    
+    const styleEl = document.getElementById('webild-inspector-styles');
+    if (styleEl) styleEl.remove();
+    
+    hoveredElement = null;
+    selectedElement = null;
+  };
+  
+  window.parent.postMessage({ type: 'webild-editor-ready' }, '*');
+})();
+</script><script src="/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/a30fbd329c17ae4e.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[73234,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3dacf8ff4bb6504c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ca3649ef7b94ae2c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/acca7c9a60be813e.js\"],\"ServiceWrapper\"]\n3:I[81537,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3dacf8ff4bb6504c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ca3649ef7b94ae2c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/acca7c9a60be813e.js\"],\"default\"]\n4:I[39756,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"default\"]\n5:I[58298,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3dacf8ff4bb6504c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ca3649ef7b94ae2c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/acca7c9a60be813e.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/6d04d032992fb6ac.js\"],\"default\"]\n6:I[37457,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"default\"]\na:I[18411,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/7c6cf385071d9019.js\"],\"default\"]\n:HL[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/4c00575e4d048e3d.css\",\"style\"]\n:HL[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/732e09d67960479a.css\",\"style\"]\n7:Taf67,"])</script><script>self.__next_f.push([1,"\n(function() {\n  if (window.self === window.top) return;\n\n  if (window.__webildEditorInitialized) return;\n  window.__webildEditorInitialized = true;\n\n  let isActive = false;\n  let hoveredElement = null;\n  let selectedElement = null;\n  let originalContent = null;\n  let isEditing = false;\n  let elementTypeLabel = null;\n  let hoverOverlay = null;\n  let scrollTimeout = null;\n  let isScrolling = false;\n\n  const invalidElements = ['html', 'body', 'script', 'style', 'meta', 'link', 'head', 'noscript', 'title'];\n  const hoverClass = 'webild-hover';\n  const selectedClass = 'webild-selected';\n\n  const style = document.createElement('style');\n  style.id = 'webild-inspector-styles';\n  style.textContent = '' +\n    '.webild-hover {' +\n    '  outline: 2px dashed #4d96ff80 !important;' +\n    '  border-radius: 0 !important;' +\n    '  outline-offset: 2px !important;' +\n    '  cursor: pointer !important;' +\n    '  transition: outline 0.15s ease !important;' +\n    '  background-color: #4d96ff05 !important;' +\n    '}' +\n    '.webild-selected {' +\n    '  outline: 2px solid #4d96ff !important;' +\n    '  outline-offset: 2px !important;' +\n    '  transition: outline 0.15s ease !important;' +\n    '  background-color: #4d96ff05 !important;' +\n    '  border-radius: 0 !important;' +\n    '}' +\n    '[contenteditable=\"true\"].webild-selected {' +\n    '  outline: 2px solid #4d96ff !important;' +\n    '  background-color: #4d96ff05 !important;' +\n    '}' +\n    'img.webild-hover,' +\n    'img.webild-selected,' +\n    'video.webild-hover,' +\n    'video.webild-selected {' +\n    '  outline-offset: 2px !important;' +\n    '}' +\n    '.webild-element-type-label {' +\n    '  position: fixed !important;' +\n    '  z-index: 999999 !important;' +\n    '  background: #4d96ff !important;' +\n    '  color: white !important;' +\n    '  padding: 4px 8px !important;' +\n    '  font-size: 11px !important;' +\n    '  font-weight: 600 !important;' +\n    '  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif !important;' +\n    '  pointer-events: none !important;' +\n    '  white-space: nowrap !important;' +\n    '  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;' +\n    '  letter-spacing: 0.3px !important;' +\n    '  border: 1px solid #4d96ff20 !important;' +\n    '}' +\n    '.webild-element-type-label.label-top {' +\n    '  border-radius: 6px 6px 0 0 !important;' +\n    '}' +\n    '.webild-element-type-label.label-bottom {' +\n    '  border-radius: 0 0 6px 6px !important;' +\n    '}' +\n    '.webild-hover-overlay {' +\n    '  position: fixed !important;' +\n    '  background-color: #4d96ff15 !important;' +\n    '  pointer-events: none !important;' +\n    '  z-index: 999998 !important;' +\n    '  transition: all 0.15s ease !important;' +\n    '}';\n  document.head.appendChild(style);\n  \n  const getUniqueSelector = (element, assignId = false) =\u003e {\n    if (element.dataset \u0026\u0026 element.dataset.webildSelector) {\n      return element.dataset.webildSelector;\n    }\n    \n    const existingId = element.getAttribute('data-webild-id');\n    if (existingId) {\n      return '[data-webild-id=\"' + existingId + '\"]';\n    }\n    \n    if (assignId) {\n      const uniqueId = 'webild-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);\n      element.setAttribute('data-webild-id', uniqueId);\n      return '[data-webild-id=\"' + uniqueId + '\"]';\n    }\n    \n    return null;\n  };\n  \n  const getSectionId = (element) =\u003e {\n    let current = element;\n    while (current \u0026\u0026 current !== document.body) {\n      const sectionId = current.getAttribute('data-section');\n      if (sectionId) {\n        return sectionId;\n      }\n      current = current.parentElement;\n    }\n    return 'hero';\n  };\n  \n  const getElementType = (element) =\u003e {\n  const tagName = element.tagName.toLowerCase();\n  const computedStyle = window.getComputedStyle(element);\n\n  if (tagName === 'img') {\n    return 'Image';\n  }\n\n  if (tagName === 'video') {\n    return 'Video';\n  }\n\n  const backgroundImage = computedStyle.backgroundImage;\n  if (backgroundImage \u0026\u0026 backgroundImage !== 'none') {\n    const urlMatch = backgroundImage.match(/url(['\"]?([^'\")]+)['\"]?)/);\n    if (urlMatch \u0026\u0026 urlMatch[1] \u0026\u0026 !urlMatch[1].includes('gradient')) {\n      const area = element.offsetWidth * element.offsetHeight;\n      const hasReasonableSize = area \u003e 1000;\n      const hasFewChildren = element.children.length \u003c= 2;\n      \n      if (hasReasonableSize \u0026\u0026 hasFewChildren) {\n        return 'Image';\n      }\n    }\n  }\n\n    if (tagName === 'button') return 'Button';\n    if (tagName === 'a' \u0026\u0026 element.getAttribute('href')) return 'Button';\n    if (element.getAttribute('role') === 'button') return 'Button';\n\n    const buttonClasses = ['btn', 'button', 'cta', 'action-button'];\n    const hasButtonClass = buttonClasses.some(cls =\u003e\n      element.classList.contains(cls) || element.classList.contains('btn-' + cls)\n    );\n\n    if (hasButtonClass \u0026\u0026 element.textContent \u0026\u0026 element.textContent.trim().length \u003e 0) {\n      return 'Button';\n    }\n\n    const textTags = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'label', 'li'];\n    if (textTags.includes(tagName)) {\n      return 'Text';\n    }\n\n    if (tagName === 'div') {\n      const hasDirectText = Array.from(element.childNodes).some(node =\u003e \n        node.nodeType === Node.TEXT_NODE \u0026\u0026 node.textContent \u0026\u0026 node.textContent.trim().length \u003e 0\n      );\n      \n      if (hasDirectText \u0026\u0026 !element.querySelector('div, section, article, main, header, footer')) {\n        return 'Text';\n      }\n      \n      return 'Div';\n    }\n\n    if (tagName === 'article') {\n      return 'Article';\n    }\n\n    if (tagName === 'a' \u0026\u0026 !element.getAttribute('href')) {\n      return 'Text';\n    }\n\n    return 'Section';\n  };\n\n  const extractOriginalUrl = (url) =\u003e {\n    if (!url) return url;\n\n    if (url.includes('/_next/')) {\n      try {\n        const urlObj = new URL(url);\n        const originalPath = urlObj.searchParams.get('url');\n        if (originalPath) {\n          return originalPath;\n        }\n      } catch (e) {\n        return url;\n      }\n    }\n    \n    if (url.includes('.webild.io')) {\n      try {\n        const urlObj = new URL(url);\n        return urlObj.pathname;\n      } catch (e) {\n        return url;\n      }\n    }\n\n    return url;\n  };\n\n  const getMediaTypeFromUrl = (url) =\u003e {\n    const videoExts = ['.mp4', '.webm', '.ogg', '.mov', '.avi', '.mkv', '.m4v', '.wmv'];\n    const imageExts = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.bmp', '.ico', '.tiff', '.avif'];\n    try {\n      const pathname = new URL(url).pathname.toLowerCase();\n      if (videoExts.some(function(ext) { return pathname.endsWith(ext); })) return 'video';\n      if (imageExts.some(function(ext) { return pathname.endsWith(ext); })) return 'image';\n    } catch(e) {}\n    return 'unknown';\n  };\n\n  const swapMediaElement = (oldEl, newTag, newSrc) =\u003e {\n    const newEl = document.createElement(newTag);\n    Array.from(oldEl.attributes).forEach(function(attr) {\n      if (attr.name !== 'src' \u0026\u0026 attr.name !== 'alt' \u0026\u0026 attr.name !== 'srcset' \u0026\u0026 attr.name !== 'autoplay' \u0026\u0026 attr.name !== 'loop' \u0026\u0026 attr.name !== 'muted' \u0026\u0026 attr.name !== 'playsinline') {\n        try { newEl.setAttribute(attr.name, attr.value); } catch(e) {}\n      }\n    });\n    newEl.style.cssText = oldEl.style.cssText;\n    if (newTag === 'video') {\n      newEl.setAttribute('autoplay', '');\n      newEl.setAttribute('loop', '');\n      newEl.setAttribute('muted', '');\n      newEl.setAttribute('playsinline', '');\n    }\n    newEl.src = newSrc;\n    if (oldEl.parentNode) {\n      oldEl.parentNode.replaceChild(newEl, oldEl);\n    }\n    return newEl;\n  };\n\n  const getElementInfo = (element, assignId = false) =\u003e {\n    const rect = element.getBoundingClientRect();\n    const tagName = element.tagName.toLowerCase();\n    const selector = getUniqueSelector(element, assignId);\n    const sectionId = getSectionId(element);\n    \n    let className = undefined;\n    try {\n      if (element.className) {\n        if (typeof element.className === 'string') {\n          className = element.className;\n        } else if (element.className.baseVal !== undefined) {\n          className = element.className.baseVal;\n        }\n      }\n    } catch (e) {}\n    \n    const info = {\n      tagName: tagName,\n      id: element.id || undefined,\n      className: className,\n      selector: selector,\n      elementType: null,\n      sectionId: sectionId,\n      boundingBox: {\n        x: rect.left,\n        y: rect.top,\n        width: rect.width,\n        height: rect.height\n      }\n    };\n    \n    if (tagName === 'img') {\n      const originalSrc = extractOriginalUrl(element.src);\n      info.imageData = {\n        src: originalSrc,\n        alt: element.alt || undefined,\n        naturalWidth: element.naturalWidth,\n        naturalHeight: element.naturalHeight,\n        isBackground: false\n      };\n    }\n\n    if (tagName === 'video') {\n      const rawSrc = element.src || element.currentSrc || (element.querySelector('source') \u0026\u0026 element.querySelector('source').src) || '';\n      const resolvedSrc = extractOriginalUrl(rawSrc);\n      info.imageData = {\n        src: resolvedSrc,\n        alt: element.getAttribute('aria-label') || undefined,\n        isBackground: false,\n        isVideo: true\n      };\n    }\n\n    const computedStyle = window.getComputedStyle(element);\n    const backgroundImage = computedStyle.backgroundImage;\n    if (backgroundImage \u0026\u0026 backgroundImage !== 'none') {\n      const urlMatch = backgroundImage.match(/url(['\"]?([^'\")]+)['\"]?)/);\n      if (urlMatch) {\n        const originalBgSrc = extractOriginalUrl(urlMatch[1]);\n        if (tagName !== 'img') {\n          info.imageData = {\n            src: originalBgSrc,\n            isBackground: true\n          };\n        } else {\n          if (!info.imageData) info.imageData = {};\n          info.imageData.backgroundImageSrc = originalBgSrc;\n        }\n      }\n    }\n    \n    const elementType = getElementType(element);\n    info.elementType = elementType;\n    \n    if (elementType === 'Button') {\n      const buttonText = element.textContent?.trim() || element.value || element.getAttribute('aria-label') || '';\n      const buttonHref = element.getAttribute('href') ||\n                        element.getAttribute('data-href') ||\n                        element.getAttribute('onclick') ||\n                        element.dataset?.link ||\n                        undefined;\n\n      info.buttonData = {\n        text: buttonText,\n        href: buttonHref\n      };\n    }\n\n    if (elementType === 'Text') {\n      info.textContent = element.textContent || '';\n    }\n    \n    return info;\n  };\n  \n  const isValidElement = (element) =\u003e {\n    if (!isActive) return false;\n    const tagName = element.tagName?.toLowerCase();\n    if (invalidElements.includes(tagName)) return false;\n    const isImage = tagName === 'img';\n    const isVideo = tagName === 'video';\n    if (isImage || isVideo) return true;\n    const hasInnerHTML = element.innerHTML \u0026\u0026 element.innerHTML.trim().length \u003e 0;\n    const hasTextContent = element.textContent \u0026\u0026 element.textContent.trim().length \u003e 0;\n    const hasChildren = element.children \u0026\u0026 element.children.length \u003e 0;\n    if (!hasInnerHTML \u0026\u0026 !hasTextContent \u0026\u0026 !hasChildren) {\n      return false;\n    }\n    const hasBackgroundImage = window.getComputedStyle(element).backgroundImage !== 'none';\n    if (hasBackgroundImage \u0026\u0026 !hasChildren \u0026\u0026 !hasTextContent) {\n      return false;\n    }\n    \n    return true;\n  };\n\n  const getMostSpecificElement = (x, y) =\u003e {\n    const elements = document.elementsFromPoint(x, y);\n    const validElements = elements.filter(el =\u003e\n      isValidElement(el) \u0026\u0026\n      !el.classList.contains('webild-hover-overlay') \u0026\u0026\n      !el.classList.contains('webild-element-type-label')\n    );\n\n    if (validElements.length === 0) return null;\n    const scoredElements = validElements.map(element =\u003e {\n      let score = 0;\n      const rect = element.getBoundingClientRect();\n      const tagName = element.tagName.toLowerCase();\n      const computedStyle = window.getComputedStyle(element);\n      let depth = 0;\n      let current = element;\n      while (current \u0026\u0026 current !== document.body) {\n        depth++;\n        current = current.parentElement;\n      }\n      score += depth * 2;\n      const hasDirectText = Array.from(element.childNodes).some(node =\u003e \n        node.nodeType === Node.TEXT_NODE \u0026\u0026 node.textContent \u0026\u0026 node.textContent.trim().length \u003e 0\n      );\n\n      const hasImages = element.tagName === 'IMG' || element.tagName === 'VIDEO' || computedStyle.backgroundImage !== 'none' || element.querySelector('img') || element.querySelector('video');\n      const isInteractive = ['BUTTON', 'A', 'INPUT', 'SELECT', 'TEXTAREA'].includes(element.tagName);\n      const hasFewChildren = element.children.length \u003c= 3;\n      const area = rect.width * rect.height;\n      const viewportArea = window.innerWidth * window.innerHeight;\n      const isSmallElement = area \u003c viewportArea * 0.1;\n      if (hasDirectText) score += 20;\n      if (hasImages) score += 15;\n      if (isInteractive) score += 25;\n      if (hasFewChildren) score += 10;\n      if (isSmallElement) score += 5;\n      if (area \u003e viewportArea * 0.3) score -= 30;\n      if (element.hasAttribute('data-section')) score -= 15;\n      if (['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(tagName)) score += 20;\n      if (['p', 'span', 'label'].includes(tagName)) score += 15;\n      if (tagName === 'div' \u0026\u0026 !hasDirectText \u0026\u0026 element.children.length \u003e 2) score -= 10;\n\n      return { element, score };\n    });\n    scoredElements.sort((a, b) =\u003e b.score - a.score);\n    return scoredElements[0]?.element || validElements[0];\n  };\n\n  const isTextElement = (element) =\u003e {\n    const elementType = getElementType(element);\n    return elementType === 'Text';\n  };\n\n  const isButtonElement = (element) =\u003e {\n    const elementType = getElementType(element);\n    return elementType === 'Button';\n  };\n\n  const updateButtonText = (element, newText) =\u003e {\n    const textNodes = [];\n    const walker = document.createTreeWalker(\n      element,\n      NodeFilter.SHOW_TEXT,\n      null\n    );\n\n    let node;\n    while (node = walker.nextNode()) {\n      if (node.textContent \u0026\u0026 node.textContent.trim()) {\n        textNodes.push(node);\n      }\n    }\n\n    if (textNodes.length \u003e 0) {\n      textNodes[0].textContent = newText;\n      for (let i = 1; i \u003c textNodes.length; i++) {\n        textNodes[i].textContent = '';\n      }\n    } else {\n      element.textContent = newText;\n    }\n  };\n\n  const makeEditable = (element, clickEvent) =\u003e {\n    if (!isTextElement(element)) return;\n    \n    originalContent = element.textContent;\n    element.contentEditable = 'true';\n    \n    if (!element.dataset.webildOriginalWhiteSpace) {\n      const computedStyle = window.getComputedStyle(element);\n      element.dataset.webildOriginalWhiteSpace = computedStyle.whiteSpace;\n      element.dataset.webildOriginalWordWrap = computedStyle.wordWrap;\n      element.dataset.webildOriginalOverflowWrap = computedStyle.overflowWrap;\n      element.dataset.webildOriginalOverflow = computedStyle.overflow;\n    }\n    \n    element.style.whiteSpace = 'pre-wrap';\n    element.style.wordWrap = 'break-word';\n    element.style.overflowWrap = 'break-word';\n    element.style.overflow = 'visible';\n    \n    element.focus();\n    isEditing = true;\n    \n    window.parent.postMessage({\n      type: 'webild-text-editing-started',\n      data: { selector: getElementInfo(element).selector }\n    }, '*');\n    \n    const handleBeforeInput = (e) =\u003e {\n      // Prevent deletion if it would leave the element empty\n      const currentText = element.textContent || '';\n      const inputType = e.inputType;\n      \n      // Check if this is a delete operation that would leave the element empty\n      if ((inputType === 'deleteContentBackward' || inputType === 'deleteContentForward' || inputType === 'deleteByCut') \u0026\u0026 currentText.length \u003c= 1) {\n        e.preventDefault();\n        element.textContent = ' ';\n        // Move cursor to the beginning\n        const range = document.createRange();\n        const sel = window.getSelection();\n        range.setStart(element.firstChild || element, 0);\n        range.collapse(true);\n        sel.removeAllRanges();\n        sel.addRange(range);\n      }\n    };\n    \n    const handleInput = () =\u003e {\n      const elementInfo = getElementInfo(element);\n      let currentText = element.textContent;\n      \n      // Ensure there's always at least a space to keep the element editable\n      if (currentText === '' || currentText === null || currentText.length === 0) {\n        element.textContent = ' ';\n        currentText = ' ';\n        // Move cursor to the beginning\n        try {\n          const range = document.createRange();\n          const sel = window.getSelection();\n          range.setStart(element.firstChild || element, 0);\n          range.collapse(true);\n          sel.removeAllRanges();\n          sel.addRange(range);\n        } catch (e) {\n          // Ignore cursor positioning errors\n        }\n      }\n\n      window.parent.postMessage({\n        type: 'webild-element-changed',\n        data: {\n          type: 'updateText',\n          selector: elementInfo.selector,\n          oldValue: originalContent,\n          newValue: currentText,\n          elementType: elementInfo.elementType,\n          sectionId: elementInfo.sectionId,\n          timestamp: Date.now()\n        }\n      }, '*');\n      \n      if (currentText !== originalContent) {\n        window.parent.postMessage({\n          type: 'webild-text-changed',\n          data: { \n            selector: elementInfo.selector,\n            hasChanges: true\n          }\n        }, '*');\n      }\n    };\n    \n    element.addEventListener('beforeinput', handleBeforeInput);\n    element.addEventListener('input', handleInput);\n    element.dataset.inputHandler = 'true';\n    element.dataset.beforeInputHandler = 'true';\n    \n    if (clickEvent \u0026\u0026 element.childNodes.length \u003e 0) {\n      try {\n        let range = null;\n        \n        if (document.caretRangeFromPoint) {\n          range = document.caretRangeFromPoint(clickEvent.clientX, clickEvent.clientY);\n        } else if (document.caretPositionFromPoint) {\n          const position = document.caretPositionFromPoint(clickEvent.clientX, clickEvent.clientY);\n          if (position) {\n            range = document.createRange();\n            range.setStart(position.offsetNode, position.offset);\n            range.collapse(true);\n          }\n        }\n        \n        if (range) {\n          const selection = window.getSelection();\n          selection.removeAllRanges();\n          selection.addRange(range);\n        }\n      } catch (e) {\n        console.warn('[Webild] Could not set caret position:', e);\n      }\n    }\n  };\n  \n  const makeUneditable = (element, save = false) =\u003e {\n    if (!element || element.contentEditable !== 'true') return;\n    \n    element.contentEditable = 'false';\n    isEditing = false;\n    \n    if (element.dataset.webildOriginalWhiteSpace) {\n      element.style.whiteSpace = element.dataset.webildOriginalWhiteSpace === 'normal' ? '' : element.dataset.webildOriginalWhiteSpace;\n      delete element.dataset.webildOriginalWhiteSpace;\n    }\n    if (element.dataset.webildOriginalWordWrap) {\n      element.style.wordWrap = element.dataset.webildOriginalWordWrap === 'normal' ? '' : element.dataset.webildOriginalWordWrap;\n      delete element.dataset.webildOriginalWordWrap;\n    }\n    if (element.dataset.webildOriginalOverflowWrap) {\n      element.style.overflowWrap = element.dataset.webildOriginalOverflowWrap === 'normal' ? '' : element.dataset.webildOriginalOverflowWrap;\n      delete element.dataset.webildOriginalOverflowWrap;\n    }\n    if (element.dataset.webildOriginalOverflow) {\n      element.style.overflow = element.dataset.webildOriginalOverflow === 'visible' ? '' : element.dataset.webildOriginalOverflow;\n      delete element.dataset.webildOriginalOverflow;\n    }\n    \n    if (element.dataset.beforeInputHandler === 'true') {\n      element.removeEventListener('beforeinput', () =\u003e {});\n      delete element.dataset.beforeInputHandler;\n    }\n    \n    if (element.dataset.inputHandler === 'true') {\n      element.removeEventListener('input', () =\u003e {});\n      delete element.dataset.inputHandler;\n    }\n    \n    window.parent.postMessage({\n      type: 'webild-text-editing-ended',\n      data: { selector: getElementInfo(element).selector }\n    }, '*');\n    \n    if (save \u0026\u0026 originalContent !== element.textContent) {\n      const elementInfo = getElementInfo(element);\n      let finalText = element.textContent;\n      \n      // Trim the final text and convert space-only to empty string for saving\n      if (finalText === ' ' || finalText.trim() === '') {\n        finalText = '';\n        // Update the actual element text to empty for display\n        element.textContent = '';\n      }\n      \n      const change = {\n        type: 'updateText',\n        selector: elementInfo.selector,\n        oldValue: originalContent,\n        newValue: finalText,\n        elementType: elementInfo.elementType,\n        sectionId: elementInfo.sectionId,\n        timestamp: Date.now()\n      };\n\n      saveChangeToStorage(change);\n\n      window.parent.postMessage({\n        type: 'webild-element-changed',\n        data: change\n      }, '*');\n    } else if (!save \u0026\u0026 originalContent !== null) {\n      element.textContent = originalContent;\n    }\n    \n    originalContent = null;\n  };\n  \n  const createHoverOverlay = (element) =\u003e {\n    const rect = element.getBoundingClientRect();\n    const overlay = document.createElement('div');\n    overlay.className = 'webild-hover-overlay';\n    overlay.style.cssText =\n      'position: fixed !important;' +\n      'top: ' + (rect.top - 2) + 'px !important;' +\n      'left: ' + (rect.left - 2) + 'px !important;' +\n      'width: ' + (rect.width + 4) + 'px !important;' +\n      'height: ' + (rect.height + 4) + 'px !important;' +\n      'background-color: rgba(90, 113, 230, 0.15) !important;' +\n      'pointer-events: none !important;' +\n      'z-index: 999998 !important;' +\n      'transition: all 0.15s ease !important;';\n    document.body.appendChild(overlay);\n    return overlay;\n  };\n  \n  const removeHoverOverlay = () =\u003e {\n    if (hoverOverlay) {\n      hoverOverlay.remove();\n      hoverOverlay = null;\n    }\n  };\n  \n  const showElementTypeLabel = (element, elementType) =\u003e {\n    if (!elementType) return;\n\n    removeElementTypeLabel();\n\n    const rect = element.getBoundingClientRect();\n    elementTypeLabel = document.createElement('div');\n    elementTypeLabel.className = 'webild-element-type-label';\n    const ariaLabel = element.getAttribute('aria-label');\n    let labelText;\n    \n    if (elementType === 'Div') {\n      labelText = 'Div';\n    } else if (elementType === 'Article') {\n      labelText = 'Article';\n    } else if (elementType === 'Section') {\n      labelText = ariaLabel || 'Section';\n    } else {\n      labelText = elementType;\n    }\n    \n    elementTypeLabel.textContent = labelText;\n    document.body.appendChild(elementTypeLabel);\n    const labelRect = elementTypeLabel.getBoundingClientRect();\n    let labelTop = rect.top - labelRect.height - 2;\n    let labelLeft = rect.left - 3;\n    let isLabelOnTop = true;\n    if (labelTop \u003c 0) {\n      labelTop = rect.bottom + 1;\n      isLabelOnTop = false;\n    }\n    if (labelTop + labelRect.height \u003e window.innerHeight) {\n      labelTop = rect.bottom - labelRect.height;\n      isLabelOnTop = false;\n      if (labelTop \u003c 0) {\n        labelTop = rect.top;\n        isLabelOnTop = true;\n      }\n    }\n    if (labelLeft + labelRect.width \u003e window.innerWidth) {\n      labelLeft = window.innerWidth - labelRect.width;\n    }\n    if (labelLeft \u003c 0) {\n      labelLeft = 0;\n    }\n    if (isLabelOnTop) {\n      elementTypeLabel.classList.add('label-top');\n    } else {\n      elementTypeLabel.classList.add('label-bottom');\n    }\n\n    elementTypeLabel.style.cssText =\n      'left: ' + labelLeft + 'px !important;' +\n      'top: ' + labelTop + 'px !important;' +\n      'transform: none !important;';\n  };\n  \n  const removeElementTypeLabel = () =\u003e {\n    if (elementTypeLabel) {\n      elementTypeLabel.remove();\n      elementTypeLabel = null;\n    }\n  };\n  \n  const handleMouseOver = (e) =\u003e {\n    if (!isActive) return;\n\n    lastMouseX = e.clientX;\n    lastMouseY = e.clientY;\n\n    const target = getMostSpecificElement(e.clientX, e.clientY) || e.target;\n\n    if (!isValidElement(target) || target === hoveredElement || target === selectedElement) {\n      return;\n    }\n    \n    if (hoveredElement \u0026\u0026 hoveredElement !== selectedElement) {\n      hoveredElement.classList.remove(hoverClass);\n      if (hoveredElement.dataset.webildOriginalPosition) {\n        hoveredElement.style.position = hoveredElement.dataset.webildOriginalPosition === 'none' ? '' : hoveredElement.dataset.webildOriginalPosition;\n        delete hoveredElement.dataset.webildOriginalPosition;\n      }\n      removeHoverOverlay();\n      removeElementTypeLabel();\n    }\n    \n    hoveredElement = target;\n    \n    const computedStyle = window.getComputedStyle(target);\n    const currentPosition = computedStyle.position;\n    \n    if (currentPosition === 'static' || currentPosition === '') {\n      hoveredElement.dataset.webildOriginalPosition = currentPosition || 'none';\n      hoveredElement.style.position = 'relative';\n    }\n    \n    hoveredElement.classList.add(hoverClass);\n    \n    if ((!selectedElement || selectedElement !== target) \u0026\u0026 !isScrolling) {\n      hoverOverlay = createHoverOverlay(target);\n    }\n    \n    const elementType = getElementType(target);\n    showElementTypeLabel(target, elementType);\n    \n    window.parent.postMessage({\n      type: 'webild-element-hover',\n      data: getElementInfo(target, false)\n    }, '*');\n  };\n  \n  const handleMouseOut = (e) =\u003e {\n    if (!isActive) return;\n    \n    if (hoveredElement \u0026\u0026 hoveredElement !== selectedElement) {\n      hoveredElement.classList.remove(hoverClass);\n      \n      if (hoveredElement.dataset.webildOriginalPosition) {\n        hoveredElement.style.position = hoveredElement.dataset.webildOriginalPosition === 'none' ? '' : hoveredElement.dataset.webildOriginalPosition;\n        delete hoveredElement.dataset.webildOriginalPosition;\n      }\n      \n      removeHoverOverlay();\n      removeElementTypeLabel();\n      \n      hoveredElement = null;\n      \n      window.parent.postMessage({\n        type: 'webild-element-hover',\n        data: null\n      }, '*');\n    }\n  };\n  \n  const handleClick = (e) =\u003e {\n  if (!isActive) return;\n\n  if (isEditing) {\n    e.stopPropagation();\n    return;\n  }\n\n  e.preventDefault();\n  e.stopPropagation();\n\n  const target = getMostSpecificElement(e.clientX, e.clientY) || e.target;  \n  if (!isValidElement(target)) return;\n    \n    if (selectedElement \u0026\u0026 selectedElement !== target) {\n      makeUneditable(selectedElement, false);\n      selectedElement.classList.remove(selectedClass);\n      selectedElement.classList.remove(hoverClass);\n      \n      if (selectedElement.dataset.webildOriginalPosition) {\n        selectedElement.style.position = selectedElement.dataset.webildOriginalPosition === 'none' ? '' : selectedElement.dataset.webildOriginalPosition;\n        delete selectedElement.dataset.webildOriginalPosition;\n      }\n      \n      removeHoverOverlay();\n      removeElementTypeLabel();\n    }\n    \n    if (selectedElement === target) {\n      if (target.dataset.webildOriginalPosition) {\n        target.style.position = target.dataset.webildOriginalPosition === 'none' ? '' : target.dataset.webildOriginalPosition;\n        delete target.dataset.webildOriginalPosition;\n      }\n      \n      removeHoverOverlay();\n      removeElementTypeLabel();\n      \n      selectedElement = null;\n      window.parent.postMessage({\n        type: 'webild-element-selected',\n        data: null\n      }, '*');\n      return;\n    }\n    \n    selectedElement = target;\n    selectedElement.classList.add(selectedClass);\n    \n    removeHoverOverlay();\n    removeElementTypeLabel();\n    \n    if (hoveredElement === target) {\n      hoveredElement.classList.remove(hoverClass);\n      hoveredElement = null;\n    }\n    \n    const elementInfo = getElementInfo(target, true);\n    selectedElement.dataset.webildSelector = elementInfo.selector;\n    showElementTypeLabel(target, elementInfo.elementType);\n    \n    window.parent.postMessage({\n      type: 'webild-element-selected',\n      data: elementInfo\n    }, '*');\n    \n    if (isTextElement(target)) {\n      setTimeout(() =\u003e makeEditable(target, e), 50);\n    }\n  };\n  \n  const handleKeyDown = (e) =\u003e {\n    if (!isActive) return;\n    if (!isEditing || !selectedElement) return;\n    \n    if (e.key === 'Enter' \u0026\u0026 !e.shiftKey) {\n      e.preventDefault();\n      makeUneditable(selectedElement, true);\n    } else if (e.key === 'Escape') {\n      e.preventDefault();\n      makeUneditable(selectedElement, false);\n    }\n  };\n  \n  const handleBlur = (e) =\u003e {\n    if (!isActive) return;\n    if (isEditing \u0026\u0026 selectedElement \u0026\u0026 e.target === selectedElement) {\n      makeUneditable(selectedElement, true);\n    }\n  };\n  \n  let lastMouseX = 0;\n  let lastMouseY = 0;\n\n  const handleScroll = () =\u003e {\n    if (!isActive) return;\n    \n    if (isEditing) return;\n    \n    if (selectedElement) {\n      makeUneditable(selectedElement, false);\n      selectedElement.classList.remove(selectedClass);\n      if (selectedElement.dataset.webildOriginalPosition) {\n        selectedElement.style.position = selectedElement.dataset.webildOriginalPosition === 'none' ? '' : selectedElement.dataset.webildOriginalPosition;\n        delete selectedElement.dataset.webildOriginalPosition;\n      }\n      selectedElement = null;\n\n      window.parent.postMessage({\n        type: 'webild-element-selected',\n        data: null\n      }, '*');\n    }\n\n    if (hoveredElement) {\n      hoveredElement.classList.remove(hoverClass);\n      if (hoveredElement.dataset.webildOriginalPosition) {\n        hoveredElement.style.position = hoveredElement.dataset.webildOriginalPosition === 'none' ? '' : hoveredElement.dataset.webildOriginalPosition;\n        delete hoveredElement.dataset.webildOriginalPosition;\n      }\n      hoveredElement = null;\n\n      window.parent.postMessage({\n        type: 'webild-element-hover',\n        data: null\n      }, '*');\n    }\n\n    removeHoverOverlay();\n    removeElementTypeLabel();\n\n    isScrolling = true;\n\n    if (scrollTimeout) {\n      clearTimeout(scrollTimeout);\n    }\n\n    scrollTimeout = setTimeout(() =\u003e {\n      isScrolling = false;\n\n      if (lastMouseX \u003e 0 \u0026\u0026 lastMouseY \u003e 0) {\n        const target = getMostSpecificElement(lastMouseX, lastMouseY);\n        if (target \u0026\u0026 isValidElement(target) \u0026\u0026 target !== selectedElement) {\n          hoveredElement = target;\n\n          const computedStyle = window.getComputedStyle(target);\n          const currentPosition = computedStyle.position;\n\n          if (currentPosition === 'static' || currentPosition === '') {\n            hoveredElement.dataset.webildOriginalPosition = currentPosition || 'none';\n            hoveredElement.style.position = 'relative';\n          }\n\n          hoveredElement.classList.add(hoverClass);\n          hoverOverlay = createHoverOverlay(target);\n\n          const elementType = getElementType(target);\n          showElementTypeLabel(target, elementType);\n\n          window.parent.postMessage({\n            type: 'webild-element-hover',\n            data: getElementInfo(target, false)\n          }, '*');\n        }\n      }\n    }, 150);\n\n    window.parent.postMessage({\n      type: 'webild-iframe-scroll'\n    }, '*');\n  };\n  \n  const getStorageKey = () =\u003e {\n    const url = new URL(window.location.href);\n    const pathParts = url.pathname.split('/').filter(Boolean);\n    return 'webild-changes-' + pathParts.join('-');\n  };\n\n  const saveChangeToStorage = (change) =\u003e {\n    try {\n      const storageKey = getStorageKey();\n      const existingChanges = JSON.parse(localStorage.getItem(storageKey) || '[]');\n\n      const filteredChanges = existingChanges.filter(c =\u003e {\n        return !(c.oldValue === change.oldValue \u0026\u0026 c.sectionId === change.sectionId);\n      });\n      filteredChanges.push(change);\n\n      localStorage.setItem(storageKey, JSON.stringify(filteredChanges));\n\n      window.parent.postMessage({\n        type: 'webild-change-saved-locally',\n        data: { change, allChanges: filteredChanges }\n      }, '*');\n    } catch (error) {\n      console.error('Failed to save change to localStorage:', error);\n    }\n  };\n\n  const clearLocalChanges = () =\u003e {\n    try {\n      const storageKey = getStorageKey();\n      localStorage.removeItem(storageKey);\n      window.parent.postMessage({\n        type: 'webild-local-changes-cleared',\n        data: {}\n      }, '*');\n    } catch (error) {\n      console.error('Failed to clear local changes:', error);\n    }\n  };\n\n  const handleMessage = (e) =\u003e {\n    if (!e.data || !e.data.type) return;\n\n    if (e.data.type === 'webild-activate-editor') {\n      if (!isActive) {\n        isActive = true;\n        window.parent.postMessage({ type: 'webild-editor-activated' }, '*');\n      }\n      return;\n    }\n\n    if (e.data.type === 'webild-deactivate-editor') {\n      if (isActive) {\n        isActive = false;\n\n        if (selectedElement) {\n          makeUneditable(selectedElement, false);\n          selectedElement.classList.remove(selectedClass);\n          selectedElement = null;\n        }\n        if (hoveredElement) {\n          hoveredElement.classList.remove(hoverClass);\n          hoveredElement = null;\n        }\n\n        removeHoverOverlay();\n        removeElementTypeLabel();\n        window.parent.postMessage({ type: 'webild-editor-deactivated' }, '*');\n      }\n      return;\n    }\n\n    if (e.data.type === 'webild-clear-local-changes') {\n      clearLocalChanges();\n      return;\n    }\n\n    if (e.data.type === 'webild-cancel-changes') {\n      try {\n        const storageKey = getStorageKey();\n        const savedChanges = localStorage.getItem(storageKey);\n        if (savedChanges) {\n          const changes = JSON.parse(savedChanges);\n          changes.forEach(change =\u003e {\n            try {\n              const element = document.querySelector(change.selector);\n              if (!element) return;\n\n              if (change.type === 'updateText') {\n                if (isTextElement(element)) {\n                  element.textContent = change.oldValue;\n                }\n              } else if (change.type === 'updateButton') {\n                if (isButtonElement(element)) {\n                  updateButtonText(element, change.oldValue);\n                }\n              } else if (change.type === 'replaceImage') {\n                const revertTag = element.tagName.toLowerCase();\n                const isBackground = revertTag !== 'img' \u0026\u0026 revertTag !== 'video';\n                if (isBackground) {\n                  element.style.backgroundImage = change.oldValue ? 'url(' + change.oldValue + ')' : '';\n                } else {\n                  const oldMediaType = getMediaTypeFromUrl(change.oldValue);\n                  if (revertTag === 'video' \u0026\u0026 oldMediaType === 'image') {\n                    swapMediaElement(element, 'img', change.oldValue);\n                  } else if (revertTag === 'img' \u0026\u0026 oldMediaType === 'video') {\n                    swapMediaElement(element, 'video', change.oldValue);\n                  } else if (revertTag === 'video') {\n                    element.src = change.oldValue;\n                    element.load();\n                  } else {\n                    element.src = change.oldValue;\n                  }\n                }\n              }\n            } catch (err) {\n              console.warn('[Webild] Failed to revert change:', err);\n            }\n          });\n        }\n        clearLocalChanges();\n      } catch (error) {\n        console.error('[Webild] Failed to cancel changes:', error);\n      }\n      return;\n    }\n\n    if (e.data.type === 'webild-update-text') {\n      const { selector, newValue, oldValue, sectionId } = e.data.data;\n      try {\n        let element = null;\n        \n        if (selectedElement \u0026\u0026 isTextElement(selectedElement)) {\n          element = selectedElement;\n        }\n        else if (selector) {\n          try {\n            element = document.querySelector(selector);\n          } catch (err) {\n            console.warn('[Webild] Invalid selector:', selector);\n          }\n        }\n        \n        if (!element \u0026\u0026 sectionId) {\n          const sectionElement = document.querySelector('[data-section=\"' + sectionId + '\"]');\n          if (sectionElement) {\n            const textElements = sectionElement.querySelectorAll('h1, h2, h3, h4, h5, h6, p, span, a, button, div');\n            for (let i = 0; i \u003c textElements.length; i++) {\n              const el = textElements[i];\n              if (isTextElement(el) \u0026\u0026 el.textContent.trim() === (oldValue || '').trim()) {\n                element = el;\n                const newSelector = getUniqueSelector(element, true);\n                if (newSelector) {\n                  element.dataset.webildSelector = newSelector;\n                }\n                break;\n              }\n            }\n          }\n        }\n        \n        if (element \u0026\u0026 isTextElement(element)) {\n          element.textContent = newValue;\n          const finalSelector = element.dataset.webildSelector || getUniqueSelector(element, true);\n          \n          window.parent.postMessage({\n            type: 'webild-text-update-success',\n            data: {\n              selector: finalSelector,\n              newValue: newValue\n            }\n          }, '*');\n        } else {\n          window.parent.postMessage({\n            type: 'webild-text-update-failed',\n            data: { selector, newValue }\n          }, '*');\n        }\n      } catch (error) {\n        window.parent.postMessage({\n          type: 'webild-text-update-failed',\n          data: { selector, newValue, error: error.message }\n        }, '*');\n      }\n      return;\n    }\n\n    if (e.data.type === 'webild-update-button') {\n      const { selector, text, href } = e.data.data;\n      try {\n        const element = document.querySelector(selector);\n        if (element \u0026\u0026 isButtonElement(element)) {\n          if (text !== undefined) {\n            updateButtonText(element, text);\n          }\n          if (href !== undefined) {\n            if (element.tagName.toLowerCase() === 'a') {\n              element.href = href;\n            } else {\n              element.setAttribute('data-href', href);\n            }\n          }\n        }\n      } catch (error) {\n        console.error('[Webild] Invalid selector for button update:', selector, error);\n      }\n      return;\n    }\n\n    if (!isActive) return;\n\n    if (e.data.type === 'webild-replace-image') {\n      const { selector, newSrc, isBackground, allowMediaTypeSwap } = e.data.data;\n      let element = null;\n\n      try {\n        element = document.querySelector(selector);\n      } catch {\n        window.parent.postMessage({\n          type: 'webild-image-replacement-error',\n          data: { selector, message: 'Invalid selector: ' + error.message, success: false }\n        }, '*');\n        return;\n      }\n\n      if (!element) {\n        window.parent.postMessage({\n          type: 'webild-image-replacement-error',\n          data: { selector, message: 'Element not found', success: false }\n        }, '*');\n        return;\n      }\n\n      try {\n        let replaced = false;\n        let oldValue = '';\n\n        if (isBackground) {\n          oldValue = window.getComputedStyle(element).backgroundImage;\n          element.style.backgroundImage = 'url(\\'' + newSrc + '\\')';\n          replaced = true;\n        } else if (element.tagName.toLowerCase() === 'img') {\n          oldValue = element.src;\n          const newMediaType = getMediaTypeFromUrl(newSrc);\n          if (newMediaType === 'video' \u0026\u0026 allowMediaTypeSwap) {\n            const swapped = swapMediaElement(element, 'video', newSrc);\n            if (selectedElement === element) selectedElement = swapped;\n            element = swapped;\n          } else {\n            element.src = newSrc;\n          }\n          element.srcset = ''; \n          replaced = true;\n        } else if (element.tagName.toLowerCase() === 'video') {\n          oldValue = element.src || element.currentSrc || '';\n          const newMediaType = getMediaTypeFromUrl(newSrc);\n          const sources = element.querySelectorAll('source');\n          if (newMediaType === 'image' \u0026\u0026 allowMediaTypeSwap) {\n            const swapped = swapMediaElement(element, 'img', newSrc);\n            if (selectedElement === element) selectedElement = swapped;\n            element = swapped;\n          } else {\n            if (sources.length \u003e 0) {\n              sources.forEach(function(source) { source.src = newSrc; });\n              element.load();\n            } else {\n              element.src = newSrc;\n              element.load();\n            }\n          }\n          replaced = true;\n        } else {\n          const hasBackgroundImage = window.getComputedStyle(element).backgroundImage !== 'none';\n          if (hasBackgroundImage) {\n            oldValue = window.getComputedStyle(element).backgroundImage;\n            element.style.backgroundImage = 'url(\\'' + newSrc + '\\')';\n            replaced = true;\n          }\n        }\n\n        if (replaced) {\n          const elementInfo = getElementInfo(element);\n\n          let cleanOldValue = oldValue;\n          if (oldValue.includes('url(')) {\n            const urlMatch = oldValue.match(/url(['\"]?([^'\")]+)['\"]?)/);\n            if (urlMatch) {\n              cleanOldValue = urlMatch[1];\n            }\n          }\n\n          cleanOldValue = extractOriginalUrl(cleanOldValue);\n\n          const change = {\n            type: 'replaceImage',\n            selector: selector,\n            oldValue: cleanOldValue,\n            newValue: newSrc,\n            elementType: elementInfo.elementType,\n            sectionId: elementInfo.sectionId,\n            timestamp: Date.now()\n          };\n\n          saveChangeToStorage(change);\n\n          window.parent.postMessage({\n            type: 'webild-element-changed',\n            data: change\n          }, '*');\n\n          window.parent.postMessage({\n            type: 'webild-image-replaced',\n            data: { selector, newSrc, success: true }\n          }, '*');\n        } else {\n          window.parent.postMessage({\n            type: 'webild-image-replacement-error',\n            data: { selector, message: 'Could not determine how to replace image', success: false }\n          }, '*');\n        }\n      } catch (error) {\n        window.parent.postMessage({\n          type: 'webild-image-replacement-error',\n          data: { selector, message: error.message || 'Failed to replace image', success: false }\n        }, '*');\n      }\n    }\n  };\n  \n  document.addEventListener('mouseover', handleMouseOver, true);\n  document.addEventListener('mouseout', handleMouseOut, true);\n  document.addEventListener('click', handleClick, true);\n  document.addEventListener('keydown', handleKeyDown, true);\n  document.addEventListener('blur', handleBlur, true);\n  window.addEventListener('scroll', handleScroll, true);\n  window.addEventListener('message', handleMessage, true);\n  \n  let lastPathname = window.location.pathname;\n  \n  const notifyPageChange = () =\u003e {\n    window.parent.postMessage({\n      type: 'webild-page-changed',\n      data: { pathname: window.location.pathname }\n    }, '*');\n  };\n  \n  window.addEventListener('popstate', () =\u003e {\n    if (lastPathname !== window.location.pathname) {\n      lastPathname = window.location.pathname;\n      notifyPageChange();\n    }\n  }, true);\n  \n  const urlCheckInterval = setInterval(() =\u003e {\n    if (lastPathname !== window.location.pathname) {\n      lastPathname = window.location.pathname;\n      notifyPageChange();\n    }\n  }, 500);\n  \n  notifyPageChange();\n  \n  window.webildCleanup = () =\u003e {\n    isActive = false;\n    \n    if (selectedElement) {\n      makeUneditable(selectedElement, false);\n    }\n    \n    removeHoverOverlay();\n    removeElementTypeLabel();\n    \n    if (urlCheckInterval) {\n      clearInterval(urlCheckInterval);\n    }\n    \n    document.removeEventListener('mouseover', handleMouseOver, true);\n    document.removeEventListener('mouseout', handleMouseOut, true);\n    document.removeEventListener('click', handleClick, true);\n    document.removeEventListener('keydown', handleKeyDown, true);\n    document.removeEventListener('blur', handleBlur, true);\n    window.removeEventListener('scroll', handleScroll, true);\n    window.removeEventListener('message', handleMessage, true);\n    \n    document.querySelectorAll('.' + hoverClass).forEach(el =\u003e {\n      el.classList.remove(hoverClass);\n    });\n    document.querySelectorAll('.' + selectedClass).forEach(el =\u003e {\n      el.classList.remove(selectedClass);\n    });\n    \n    const styleEl = document.getElementById('webild-inspector-styles');\n    if (styleEl) styleEl.remove();\n    \n    hoveredElement = null;\n    selectedElement = null;\n  };\n  \n  window.parent.postMessage({ type: 'webild-editor-ready' }, '*');\n})();\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"qkWbsBJNgA8p1cAQ8w3aN\",\"c\":[\"\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/4c00575e4d048e3d.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3dacf8ff4bb6504c.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ca3649ef7b94ae2c.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-2\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/acca7c9a60be813e.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"body\",null,{\"className\":\"montserrat_a6b8e55e-module__JnHUVq__variable antialiased\",\"children\":[[\"$\",\"$L3\",null,{}],[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$5\",\"errorStyles\":[],\"errorScripts\":[[\"$\",\"script\",\"script-0\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/6d04d032992fb6ac.js\",\"async\":true}]],\"template\":[\"$\",\"$L6\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$7\"}}]]}]}]}]]}],{\"children\":[\"$L8\",{},null,false,false]},null,false,false],\"$L9\",false]],\"m\":\"$undefined\",\"G\":[\"$a\",[]],\"S\":true}\n"])</script><script>self.__next_f.push([1,"b:I[47257,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"ClientPageRoot\"]\nc:I[52683,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3dacf8ff4bb6504c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ca3649ef7b94ae2c.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/acca7c9a60be813e.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/9a42fb5b4bdeaf4b.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/347c3977c8e96fa9.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/704fd3360a402c7f.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3e4a72ce67395ba3.js\"],\"default\"]\nf:I[97367,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"OutletBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[97367,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"ViewportBoundary\"]\n14:I[97367,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"MetadataBoundary\"]\n8:[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$Lb\",null,{\"Component\":\"$c\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@d\",\"$@e\"]}}],[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/732e09d67960479a.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/9a42fb5b4bdeaf4b.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/347c3977c8e96fa9.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-2\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/704fd3360a402c7f.js\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-3\",{\"src\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/3e4a72ce67395ba3.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"$10\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@11\"}]}]]}]\n9:[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L12\",null,{\"children\":\"$@13\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L14\",null,{\"children\":[\"$\",\"$10\",null,{\"name\":\"Next.Metadata\",\"children\":\"$@15\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]\n"])</script><script>self.__next_f.push([1,"d:{}\ne:\"$8:props:children:0:props:serverProvidedParams:params\"\n"])</script><script>self.__next_f.push([1,"13:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"16:I[27201,[\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/ff1a16fafef87110.js\",\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/_next/static/chunks/280f66710badcd78.js\"],\"IconMark\"]\n15:[[\"$\",\"title\",\"0\",{\"children\":\"Mayor Excelsior Cleaning Services\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Professional cleaning services for offices, schools, and homes. Quality, trust, and excellence delivered.\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/previews/09f2a200-8ccf-4534-9955-54c013fc18c5/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"$L16\",\"3\",{}]]\n11:null\n"])</script></body></html>

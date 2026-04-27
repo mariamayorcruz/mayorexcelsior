@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price Calculator — Mayor Excelsior</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0f1a; color: #fff; font-family: 'DM Sans', sans-serif; min-height: 100vh; }
+
+    /* PASSWORD GATE */
+    #passwordGate {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .pw-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      padding: 3rem 2.5rem;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .pw-logo { max-width: 140px; height: auto; margin: 0 auto 1.5rem; display: block; }
+    .pw-title { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.5rem; }
+    .pw-subtitle { font-size: 14px; color: rgba(255,255,255,0.45); margin-bottom: 2rem; line-height: 1.6; }
+    .pw-input {
+      width: 100%;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      padding: 13px 16px;
+      font-size: 15px;
+      font-family: 'DM Sans', sans-serif;
+      color: #fff;
+      outline: none;
+      margin-bottom: 1rem;
+      text-align: center;
+      letter-spacing: 0.1em;
+      transition: border-color 0.2s;
+    }
+    .pw-input:focus { border-color: rgba(212,184,106,0.4); }
+    .pw-input::placeholder { color: rgba(255,255,255,0.2); letter-spacing: 0; }
+    .pw-btn {
+      width: 100%;
+      background: #D4B86A;
+      border: none;
+      color: #0a0f1a;
+      padding: 14px 24px;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'DM Sans', sans-serif;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .pw-btn:hover { opacity: 0.88; }
+    .pw-error { font-size: 13px; color: #ff6b6b; margin-top: 0.75rem; display: none; }
+    .pw-note { font-size: 11.5px; color: rgba(255,255,255,0.25); margin-top: 1.5rem; line-height: 1.5; }
+    .pw-note a { color: rgba(212,184,106,0.6); text-decoration: none; }
+
+    /* CALCULATOR */
+    #calculatorApp { display: none; max-width: 780px; margin: 0 auto; padding: 50px 2rem 6rem; }
+    .calc-header { text-align: center; margin-bottom: 2.5rem; }
+    .calc-logo { max-width: 150px; height: auto; margin: 0 auto 1.5rem; display: block; }
+    .calc-eyebrow { font-size: 10.5px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(212,184,106,0.85); margin-bottom: 0.75rem; }
+    .calc-title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; color: #fff; margin-bottom: 0.75rem; line-height: 1.15; }
+    .calc-subtitle { font-size: 14.5px; color: rgba(255,255,255,0.5); max-width: 440px; margin: 0 auto; line-height: 1.65; }
+    .calc-card { background: #ffffff; border: 1px solid rgba(0,0,0,0.08); border-radius: 24px; padding: 2.5rem; display: flex; flex-direction: column; gap: 2rem; }
+    .calc-group { display: flex; flex-direction: column; gap: 0.75rem; }
+    .calc-label { font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.7); display: flex; justify-content: space-between; align-items: center; }
+    .calc-sqft-display { font-size: 14px; font-weight: 700; color: #D4B86A; }
+    .calc-options { display: flex; flex-wrap: wrap; gap: 8px; }
+    .calc-opt {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: rgba(255,255,255,0.55);
+      padding: 9px 18px;
+      border-radius: 50px;
+      font-size: 13.5px;
+      font-family: 'DM Sans', sans-serif;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .calc-opt:hover { border-color: rgba(212,184,106,0.3); color: rgba(255,255,255,0.8); }
+    .calc-opt.active { background: rgba(212,184,106,0.12); border-color: rgba(212,184,106,0.5); color: #D4B86A; font-weight: 600; }
+    .calc-slider { -webkit-appearance: none; appearance: none; width: 100%; height: 4px; border-radius: 2px; background: rgba(255,255,255,0.1); outline: none; cursor: pointer; }
+    .calc-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 24px; height: 24px; border-radius: 50%; background: #D4B86A; cursor: pointer; box-shadow: 0 2px 8px rgba(212,184,106,0.4); }
+    .calc-slider-labels { display: flex; justify-content: space-between; font-size: 11px; color: rgba(255,255,255,0.3); margin-top: 4px; }
+
+    /* RESULT */
+    .calc-result { background: rgba(212,184,106,0.06); border: 1px solid rgba(212,184,106,0.25); border-radius: 18px; padding: 2rem; text-align: center; }
+    .calc-result-label { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(212,184,106,0.65); margin-bottom: 0.5rem; }
+    .calc-result-price { font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 5vw, 3.2rem); font-weight: 900; color: #D4B86A; line-height: 1; margin-bottom: 0.4rem; transition: all 0.25s ease; }
+    .calc-result-per { font-size: 13px; color: rgba(212,184,106,0.6); margin-bottom: 1.25rem; }
+    .calc-breakdown { background: rgba(255,255,255,0.04); border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; text-align: left; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 1.5rem; }
+    .calc-breakdown-item { display: flex; flex-direction: column; gap: 2px; }
+    .calc-breakdown-item .bd-label { font-size: 10.5px; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.1em; }
+    .calc-breakdown-item .bd-value { font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.82); }
+    .calc-result-note { font-size: 12px; color: rgba(255,255,255,0.35); line-height: 1.65; max-width: 400px; margin: 0 auto 1.25rem; font-style: italic; }
+    .calc-result-ctas { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+    .calc-cta-gold { display: inline-block; background: #D4B86A; color: #0a0f1a; padding: 13px 28px; border-radius: 50px; font-size: 14px; font-weight: 600; font-family: 'DM Sans', sans-serif; text-decoration: none; transition: opacity 0.2s, transform 0.2s; }
+    .calc-cta-gold:hover { opacity: 0.88; transform: translateY(-2px); }
+    .calc-cta-outline { display: inline-flex; align-items: center; gap: 8px; background: transparent; border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.7); padding: 13px 24px; border-radius: 50px; font-size: 14px; font-family: 'DM Sans', sans-serif; text-decoration: none; transition: all 0.2s; }
+    .calc-cta-outline:hover { border-color: rgba(255,255,255,0.4); color: #fff; }
+    .calc-disclaimer { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 14px; padding: 1.25rem 1.5rem; font-size: 12.5px; color: rgba(255,255,255,0.35); line-height: 1.7; text-align: center; font-style: italic; }
+    .calc-back { display: inline-block; font-size: 13px; color: rgba(212,184,106,0.65); text-decoration: none; margin-bottom: 2rem; transition: color 0.2s; }
+    .calc-back:hover { color: #D4B86A; }
+
+    @media (max-width: 600px) {
+      .calc-card { padding: 1.5rem 1.25rem; }
+      .calc-breakdown { grid-template-columns: 1fr; }
+      .calc-result-ctas { flex-direction: column; align-items: center; }
+      .calc-cta-gold, .calc-cta-outline { width: 100%; text-align: center; justify-content: center; }
+    }
+
+    .calc-card {
+      background: #ffffff !important;
+      border: 1px solid rgba(0,0,0,0.08) !important;
+    }
+
+    .calc-label {
+      color: #1a1a2e !important;
+    }
+
+    .calc-opt {
+      background: #f5f5f5 !important;
+      border: 1px solid #e0e0e0 !important;
+      color: #555 !important;
+    }
+
+    .calc-opt.active {
+      background: rgba(212,184,106,0.15) !important;
+      border-color: #D4B86A !important;
+      color: #a07c2a !important;
+    }
+
+    .calc-slider-labels {
+      color: #999 !important;
+    }
+
+    .calc-sqft-display {
+      color: #a07c2a !important;
+    }
+
+    .calc-breakdown {
+      background: #f8f8f8 !important;
+    }
+
+    .bd-label {
+      color: #888 !important;
+    }
+
+    .bd-value {
+      color: #1a1a2e !important;
+    }
+  </style>
+</head>
+<body>
+
+<!-- PASSWORD GATE -->
+<div id="passwordGate">
+  <div class="pw-card">
+    <img src="logo-hero.png?v=10" alt="Mayor Excelsior" class="pw-logo" />
+    <h1 class="pw-title">Price Calculator</h1>
+    <p class="pw-subtitle">Enter the access code sent to your email to view your personalized price estimate.</p>
+    <input type="password" id="pwInput" class="pw-input" placeholder="Enter access code" autocomplete="off" />
+    <button type="button" class="pw-btn" onclick="checkAccess()">Access Calculator</button>
+    <p class="pw-error" id="pwError">Incorrect code. Please check your email and try again.</p>
+    <p class="pw-note">Don't have a code? <a href="index.html#estimate">Request your free estimate</a></p>
+  </div>
+</div>
+
+<!-- CALCULATOR -->
+<div id="calculatorApp">
+  <a href="index.html" class="calc-back">← Back to Mayor Excelsior</a>
+
+  <div class="calc-header">
+    <img src="logo-hero.png?v=10" alt="Mayor Excelsior" class="calc-logo" />
+    <p class="calc-eyebrow">Your Free Price Estimate</p>
+    <h1 class="calc-title">Calculate Your Cleaning Cost</h1>
+    <p class="calc-subtitle">Adjust the options below to get an instant price range. Prices adjust automatically based on frequency.</p>
+  </div>
+
+  <div class="calc-card">
+
+    <!-- 1. Type -->
+    <div class="calc-group">
+      <label class="calc-label">1. Type of space</label>
+      <div class="calc-options" id="calcType">
+        <button type="button" class="calc-opt active" data-type="residential">🏠 Home</button>
+        <button type="button" class="calc-opt" data-type="commercial">🏢 Commercial</button>
+      </div>
+    </div>
+
+    <!-- 2a. Residential service -->
+    <div class="calc-group" id="resServices">
+      <label class="calc-label">2. Type of cleaning</label>
+      <div class="calc-options">
+        <button type="button" class="calc-opt active" data-service="standard">Standard Clean</button>
+        <button type="button" class="calc-opt" data-service="deep">Deep Clean</button>
+        <button type="button" class="calc-opt" data-service="moveout">Move-In / Out</button>
+      </div>
+    </div>
+
+    <!-- 2b. Commercial type -->
+    <div class="calc-group" id="comServices" style="display:none">
+      <label class="calc-label">2. Type of space</label>
+      <div class="calc-options">
+        <button type="button" class="calc-opt active" data-comtype="office">Office</button>
+        <button type="button" class="calc-opt" data-comtype="school">School / Daycare</button>
+        <button type="button" class="calc-opt" data-comtype="medical">Medical / Clinic</button>
+        <button type="button" class="calc-opt" data-comtype="retail">Retail</button>
+        <button type="button" class="calc-opt" data-comtype="deep">Deep Clean</button>
+      </div>
+    </div>
+
+    <!-- 3a. Residential frequency -->
+    <div class="calc-group" id="resFreq">
+      <label class="calc-label">3. How often?</label>
+      <div class="calc-options">
+        <button type="button" class="calc-opt" data-resfreq="onetime">One-Time</button>
+        <button type="button" class="calc-opt active" data-resfreq="biweekly">Bi-Weekly</button>
+        <button type="button" class="calc-opt" data-resfreq="weekly">Weekly</button>
+        <button type="button" class="calc-opt" data-resfreq="monthly">Monthly</button>
+      </div>
+    </div>
+
+    <!-- 3b. Commercial frequency -->
+    <div class="calc-group" id="comFreq" style="display:none">
+      <label class="calc-label">3. How often? <small style="color:rgba(212,184,106,0.6);font-weight:400">More visits = lower price per visit</small></label>
+      <div class="calc-options">
+        <button type="button" class="calc-opt" data-comfreq="monthly">1x / Month</button>
+        <button type="button" class="calc-opt" data-comfreq="bimonthly">2x / Month</button>
+        <button type="button" class="calc-opt active" data-comfreq="weekly">1x / Week</button>
+        <button type="button" class="calc-opt" data-comfreq="2x">2x / Week</button>
+        <button type="button" class="calc-opt" data-comfreq="3x">3x / Week</button>
+        <button type="button" class="calc-opt" data-comfreq="5x">5x / Week (Daily)</button>
+      </div>
+    </div>
+
+    <!-- 4. Size -->
+    <div class="calc-group">
+      <label class="calc-label">
+        4. Approximate size
+        <span class="calc-sqft-display" id="sqftDisplay">1,500 sq ft</span>
+      </label>
+      <input type="range" id="sqftSlider" class="calc-slider" min="500" max="10000" step="100" value="1500" />
+      <div class="calc-slider-labels">
+        <span>500 sq ft</span>
+        <span>10,000 sq ft</span>
+      </div>
+    </div>
+
+    <!-- Result -->
+    <div class="calc-result">
+      <div class="calc-result-label">Estimated Price Per Visit</div>
+      <div class="calc-result-price" id="calcPrice">$150 – $220</div>
+
+      <div class="calc-breakdown">
+        <div class="calc-breakdown-item">
+          <span class="bd-label">Space</span>
+          <span class="bd-value" id="bdSpace">1,500 sq ft</span>
+        </div>
+        <div class="calc-breakdown-item">
+          <span class="bd-label">Frequency</span>
+          <span class="bd-value" id="bdFreq">Bi-Weekly</span>
+        </div>
+        <div class="calc-breakdown-item">
+          <span class="bd-label">Est. Monthly Total</span>
+          <span class="bd-value" id="bdMonthly">$300 – $440</span>
+        </div>
+      </div>
+
+      <p class="calc-result-note" id="calcNote"></p>
+
+      <div class="calc-result-ctas">
+        <a href="index.html#quote" class="calc-cta-gold">Get My Exact Quote</a>
+        <a href="https://wa.me/13852807661?text=Hi%20I%20need%20a%20cleaning%20quote" target="_blank" rel="noopener noreferrer" class="calc-cta-outline">Chat on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="calc-disclaimer" id="calcDisclaimer"></div>
+
+  </div>
+</div>
+
+<script>
+// ── ACCESS CONTROL ──
+const OWNER_PASSWORD = 'excelsior2025';  // Cambia esto a tu contraseña privada
+const CLIENT_TOKEN   = 'me2025client';   // Token para clientes por email
+
+function checkAccess() {
+  const val = document.getElementById('pwInput').value.trim();
+  if (val === OWNER_PASSWORD || val === CLIENT_TOKEN) {
+    document.getElementById('passwordGate').style.display = 'none';
+    document.getElementById('calculatorApp').style.display = 'block';
+    document.getElementById('pwError').style.display = 'none';
+    calcPrice(); updateDisclaimer();
+  } else {
+    document.getElementById('pwError').style.display = 'block';
+    document.getElementById('pwInput').value = '';
+  }
+}
+
+// Check URL token (for email links)
+(function() {
+  const token = new URLSearchParams(window.location.search).get('token');
+  if (token === CLIENT_TOKEN || token === OWNER_PASSWORD) {
+    document.getElementById('passwordGate').style.display = 'none';
+    document.getElementById('calculatorApp').style.display = 'block';
+  }
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+  var inp = document.getElementById('pwInput');
+  if (inp) inp.addEventListener('keydown', function(e) { if (e.key === 'Enter') checkAccess(); });
+  calcPrice(); updateDisclaimer();
+});
+
+// ── PRICING ENGINE ──
+const resPricing = {
+  standard: { low: 0.10, high: 0.15, min: 120 },
+  deep:     { low: 0.15, high: 0.25, min: 180 },
+  moveout:  { low: 0.18, high: 0.30, min: 200 }
+};
+
+const resFreqData = {
+  onetime:  { mult: 1.00, label: 'One-Time',  visits: 1 },
+  weekly:   { mult: 0.88, label: 'Weekly',     visits: 4 },
+  biweekly: { mult: 0.93, label: 'Bi-Weekly',  visits: 2 },
+  monthly:  { mult: 0.97, label: 'Monthly',    visits: 1 }
+};
+
+const comFreqData = {
+  monthly:   { low: 0.18, high: 0.22, label: '1x / Month',       visits: 1  },
+  bimonthly: { low: 0.15, high: 0.20, label: '2x / Month',       visits: 2  },
+  weekly:    { low: 0.12, high: 0.16, label: '1x / Week',        visits: 4  },
+  '2x':      { low: 0.10, high: 0.14, label: '2x / Week',        visits: 8  },
+  '3x':      { low: 0.09, high: 0.13, label: '3x / Week',        visits: 12 },
+  '5x':      { low: 0.08, high: 0.11, label: '5x / Week (Daily)',visits: 20 }
+};
+
+const comTypeMult = {
+  office: 1.00, school: 1.15, medical: 1.40, retail: 1.05, deep: 1.80
+};
+
+let currentType    = 'residential';
+let currentService = 'standard';
+let currentComType = 'office';
+let currentResFreq = 'biweekly';
+let currentComFreq = 'weekly';
+let currentSqft    = 1500;
+
+function fmt(n)    { return '$' + Math.round(n).toLocaleString('en-US'); }
+function fmtR(n)   { return '$' + n.toFixed(2); }
+
+function calcPrice() {
+  let low, high, lowRate, highRate, monthlyVisits, freqLabel;
+
+  if (currentType === 'residential') {
+    const b = resPricing[currentService];
+    const f = resFreqData[currentResFreq];
+    lowRate  = b.low  * f.mult;
+    highRate = b.high * f.mult;
+    low  = Math.max(currentSqft * lowRate,  b.min);
+    high = Math.max(currentSqft * highRate, b.min * 1.5);
+    monthlyVisits = f.visits;
+    freqLabel     = f.label;
+  } else {
+    const f    = comFreqData[currentComFreq];
+    const mult = comTypeMult[currentComType];
+    lowRate  = f.low  * mult;
+    highRate = f.high * mult;
+    low  = Math.max(currentSqft * lowRate,  150);
+    high = Math.max(currentSqft * highRate, 200);
+    monthlyVisits = f.visits;
+    freqLabel     = f.label;
+  }
+
+  document.getElementById('calcPrice').textContent    = fmt(low) + ' – ' + fmt(high);
+  document.getElementById('bdSpace').textContent      = currentSqft.toLocaleString('en-US') + ' sq ft';
+  document.getElementById('bdFreq').textContent       = freqLabel;
+  document.getElementById('bdMonthly').textContent    = fmt(low * monthlyVisits) + ' – ' + fmt(high * monthlyVisits);
+}
+
+function updateDisclaimer() {
+  if (currentType === 'commercial') {
+    document.getElementById('calcNote').textContent = 'Estimated per visit. Final pricing confirmed during an on-site walkthrough.';
+    document.getElementById('calcDisclaimer').textContent = 'Commercial prices are for reference only. Final scope and pricing will be confirmed the day we visit your space. Every commercial property is unique — condition, layout, and specific needs may affect the final quote. No charges without your approval.';
+  } else {
+    document.getElementById('calcNote').textContent = 'Estimated per visit. Final pricing confirmed on the day of your cleaning.';
+    document.getElementById('calcDisclaimer').textContent = 'Residential prices are for reference only. If you would like service right away, final pricing is confirmed on the day of your cleaning after our team reviews the condition of your home. No surprises — nothing is charged without your approval.';
+  }
+}
+
+// EVENT LISTENERS
+document.querySelectorAll('#calcType .calc-opt').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('#calcType .calc-opt').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentType = btn.dataset.type;
+    document.getElementById('resServices').style.display = currentType === 'residential' ? '' : 'none';
+    document.getElementById('comServices').style.display = currentType === 'commercial'  ? '' : 'none';
+    document.getElementById('resFreq').style.display     = currentType === 'residential' ? '' : 'none';
+    document.getElementById('comFreq').style.display     = currentType === 'commercial'  ? '' : 'none';
+    calcPrice(); updateDisclaimer();
+  });
+});
+
+document.querySelectorAll('#resServices .calc-opt').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('#resServices .calc-opt').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active'); currentService = btn.dataset.service; calcPrice();
+  });
+});
+
+document.querySelectorAll('#comServices .calc-opt').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('#comServices .calc-opt').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active'); currentComType = btn.dataset.comtype; calcPrice();
+  });
+});
+
+document.querySelectorAll('#resFreq .calc-opt').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('#resFreq .calc-opt').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active'); currentResFreq = btn.dataset.resfreq; calcPrice();
+  });
+});
+
+document.querySelectorAll('#comFreq .calc-opt').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('#comFreq .calc-opt').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active'); currentComFreq = btn.dataset.comfreq; calcPrice();
+  });
+});
+
+document.getElementById('sqftSlider').addEventListener('input', function() {
+  currentSqft = parseInt(this.value);
+  document.getElementById('sqftDisplay').textContent = currentSqft.toLocaleString('en-US') + ' sq ft';
+  calcPrice();
+});
+</script>
+</body>
+</html>

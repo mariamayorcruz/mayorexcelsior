@@ -1,0 +1,167 @@
+/* Updated multi-column footer (Mayor Excelsior) */
+
+.me-footer {
+  background: linear-gradient(180deg, #0d2748 0%, #060d18 100%);
+  color: rgba(255, 255, 255, 0.72);
+  padding: clamp(48px, 8vw, 72px) 16px clamp(32px, 5vw, 48px);
+  border-top: 1px solid rgba(228, 185, 0, 0.22);
+}
+
+.me-footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.me-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(28px, 4vw, 40px);
+  padding-top: 8px;
+}
+
+.me-footer-brand {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (min-width: 900px) {
+  .me-footer-grid {
+    grid-template-columns: 1.35fr 0.75fr 0.75fr 1fr 0.75fr;
+    align-items: start;
+  }
+
+  .me-footer-brand {
+    grid-column: auto;
+  }
+}
+
+.me-footer-logo-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.me-footer-logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.me-footer-logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.me-footer-name {
+  font-weight: 750;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+
+.me-footer-domain {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.me-footer-tagline {
+  margin: 16px 0 0;
+  max-width: 22rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.me-footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  margin: 18px 0 0;
+  font-size: 0.9rem;
+}
+
+.me-footer-contact a {
+  font-weight: 750;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  text-decoration-color: #e4b900;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.me-footer-contact a:hover {
+  color: #fff;
+}
+
+.me-footer-wa {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  border-radius: 8px;
+  padding: 6px 14px;
+  background: linear-gradient(180deg, #25d366, #1fa855);
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 0.88rem;
+  font-weight: 800;
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.28);
+}
+
+.me-footer-cta {
+  margin-top: 16px;
+  align-self: flex-start;
+}
+
+.me-footer-heading {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.me-footer-nav {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.me-footer-nav a {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.me-footer-nav a:hover {
+  color: #e4b900;
+}
+
+.me-footer-blurb {
+  margin: 16px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.me-footer-bottom {
+  margin-top: clamp(36px, 5vw, 48px);
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.me-footer-copy {
+  margin: 0;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.38);
+}

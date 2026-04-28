@@ -701,7 +701,8 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.quote-form label {
+.quote-form label,
+.quote-form .form-field {
   display: grid;
   gap: 8px;
   color: #2d3748;

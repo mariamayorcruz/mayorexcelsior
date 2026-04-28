@@ -1697,12 +1697,14 @@
       }
 
       // Quote form (cotización)
-      var quoteForm = document.querySelector('form[action*="formspree"]');
+      var quoteForm = document.querySelector('#quote form');
       if (quoteForm) {
         quoteForm.addEventListener('submit', function(e) {
+          var nameField = quoteForm.querySelector('[name="name"]');
+          var emailField = quoteForm.querySelector('[name="email"]');
           var formData = {
-            name: quoteForm.querySelector('[name="name"]') ? quoteForm.querySelector('[name="name"]').value : 'Customer',
-            email: quoteForm.querySelector('[name="email"]') ? quoteForm.querySelector('[name="email"]').value : ''
+            name: nameField ? nameField.value : 'Customer',
+            email: emailField ? emailField.value : ''
           };
           if (formData.email) {
             emailjs.send('service_o81t3b8', 'template_j98h8pl', formData);

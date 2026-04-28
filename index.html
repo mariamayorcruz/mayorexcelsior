@@ -1240,12 +1240,7 @@
               </div>
             </div>
 
-            <form
-              class="leadgate-form"
-              action="https://formspree.io/f/xbdqbaen"
-              method="POST"
-              id="leadGateForm"
-            >
+            <form class="leadgate-form" id="leadGateForm">
               <input type="hidden" name="form_source" value="calculator_lead" />
 
               <div class="leadgate-fields">
@@ -1297,29 +1292,6 @@
           </div>
         </div>
       </section>
-
-      <script>
-        document.getElementById("leadGateForm").addEventListener("submit", function (e) {
-          e.preventDefault();
-          var form = this;
-          var data = new FormData(form);
-
-          fetch(form.action, {
-            method: "POST",
-            body: data,
-            headers: { Accept: "application/json" },
-          })
-            .then(function (res) {
-              if (res.ok) {
-                form.style.display = "none";
-                document.getElementById("leadSuccess").style.display = "flex";
-              }
-            })
-            .catch(function () {
-              alert("Something went wrong. Please try again or contact us on WhatsApp.");
-            });
-        });
-      </script>
 
       <section id="quote" class="quote-section" aria-labelledby="quote-title">
         <div class="section-inner quote-layout">

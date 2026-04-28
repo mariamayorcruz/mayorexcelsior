@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css?v=20260427-gallery" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </head>
   <body>
     <header class="site-header" aria-label="Main navigation">
@@ -1681,5 +1682,45 @@
 
     <script src="language-switcher.js?v=20260427-gallery"></script>
     <script src="script.js?v=20260427-gallery"></script>
+    <script>
+      emailjs.init('4RyeC4vjnArv_tbGG');
+
+      // Lead gate form (calculadora)
+      var leadForm = document.getElementById('leadGateForm');
+      if (leadForm) {
+        leadForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          var formData = {
+            name: document.getElementById('lg-name').value,
+            email: document.getElementById('lg-email').value,
+            phone: document.getElementById('lg-phone').value,
+            service_interest: document.getElementById('lg-type').value
+          };
+          emailjs.send('service_o81t3b8', 'template_d0282sq', formData)
+            .then(function() {
+              leadForm.style.display = 'none';
+              document.getElementById('leadSuccess').style.display = 'flex';
+            })
+            .catch(function(error) {
+              alert('Something went wrong. Please try again or contact us on WhatsApp.');
+              console.error(error);
+            });
+        });
+      }
+
+      // Quote form (cotización)
+      var quoteForm = document.querySelector('form[action*="formspree"]');
+      if (quoteForm) {
+        quoteForm.addEventListener('submit', function(e) {
+          var formData = {
+            name: quoteForm.querySelector('[name="name"]') ? quoteForm.querySelector('[name="name"]').value : 'Customer',
+            email: quoteForm.querySelector('[name="email"]') ? quoteForm.querySelector('[name="email"]').value : ''
+          };
+          if (formData.email) {
+            emailjs.send('service_o81t3b8', 'template_j98h8pl', formData);
+          }
+        });
+      }
+    </script>
   </body>
 </html>

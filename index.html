@@ -1671,58 +1671,60 @@
     <script src="language-switcher.js?v=20260427-gallery"></script>
     <script src="script.js?v=20260427-gallery"></script>
     <script>
-      emailjs.init('4RyeC4vjnArv_tbGG');
+      document.addEventListener('DOMContentLoaded', function() {
+        emailjs.init('4RyeC4vjnArv_tbGG');
 
-      // Lead gate form (calculadora)
-      var leadForm = document.getElementById('leadGateForm');
-      if (leadForm) {
-        leadForm.addEventListener('submit', function(e) {
-          e.preventDefault();
-          var formData = {
-            name: document.getElementById('lg-name').value,
-            email: document.getElementById('lg-email').value,
-            phone: document.getElementById('lg-phone').value,
-            service_interest: document.getElementById('lg-type').value
-          };
-          emailjs.send('service_o81t3b8', 'template_d0282sq', formData)
-            .then(function() {
-              leadForm.style.display = 'none';
-              document.getElementById('leadSuccess').style.display = 'flex';
-            })
-            .catch(function(error) {
-              alert('Something went wrong. Please try again or contact us on WhatsApp.');
-              console.error(error);
-            });
-        });
-      }
-
-      // Quote form (cotización)
-      var quoteForm = document.querySelector('#quote form');
-      console.log('Quote form found:', quoteForm);
-      if (quoteForm) {
-        quoteForm.addEventListener('submit', function(e) {
-          console.log('Quote form submitted');
-          var nameField = quoteForm.querySelector('[name="name"]');
-          var emailField = quoteForm.querySelector('[name="email"]');
-          console.log('Name:', nameField ? nameField.value : 'not found');
-          console.log('Email:', emailField ? emailField.value : 'not found');
-          var formData = {
-            name: nameField ? nameField.value : 'Customer',
-            email: emailField ? emailField.value : ''
-          };
-          if (formData.email) {
-            emailjs.send('service_o81t3b8', 'template_j98h8pl', formData)
+        // Lead gate form
+        var leadForm = document.getElementById('leadGateForm');
+        if (leadForm) {
+          leadForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var formData = {
+              name: document.getElementById('lg-name').value,
+              email: document.getElementById('lg-email').value,
+              phone: document.getElementById('lg-phone').value,
+              service_interest: document.getElementById('lg-type').value
+            };
+            emailjs.send('service_o81t3b8', 'template_d0282sq', formData)
               .then(function() {
-                console.log('EmailJS sent successfully');
+                leadForm.style.display = 'none';
+                document.getElementById('leadSuccess').style.display = 'flex';
               })
               .catch(function(error) {
-                console.error('EmailJS error:', error);
+                alert('Something went wrong. Please try again or contact us on WhatsApp.');
+                console.error(error);
               });
-          } else {
-            console.log('No email found, skipping EmailJS');
-          }
-        });
-      }
+          });
+        }
+
+        // Quote form
+        var quoteForm = document.querySelector('#quote form');
+        console.log('Quote form found:', quoteForm);
+        if (quoteForm) {
+          quoteForm.addEventListener('submit', function(e) {
+            console.log('Quote form submitted');
+            var nameField = quoteForm.querySelector('[name="name"]');
+            var emailField = quoteForm.querySelector('[name="email"]');
+            console.log('Name:', nameField ? nameField.value : 'not found');
+            console.log('Email:', emailField ? emailField.value : 'not found');
+            var formData = {
+              name: nameField ? nameField.value : 'Customer',
+              email: emailField ? emailField.value : ''
+            };
+            if (formData.email) {
+              emailjs.send('service_o81t3b8', 'template_j98h8pl', formData)
+                .then(function() {
+                  console.log('EmailJS sent successfully');
+                })
+                .catch(function(error) {
+                  console.error('EmailJS error:', error);
+                });
+            } else {
+              console.log('No email found, skipping EmailJS');
+            }
+          });
+        }
+      });
     </script>
   </body>
 </html>

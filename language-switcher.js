@@ -520,6 +520,14 @@
       en: "I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg & data rates may apply.",
       es: "Acepto recibir mensajes SMS de Mayor Excelsior LLC sobre servicios de limpieza y citas. La frecuencia de mensajes varía. Responda STOP para cancelar. Responda HELP para ayuda. Pueden aplicarse tarifas.",
     },
+    "terms-privacy-consent": {
+      en: 'I agree to the <a href="https://mayorexcelsior.com/terms.html">Terms of Service</a> and <a href="https://mayorexcelsior.com/privacy.html">Privacy Policy</a> of Mayor Excelsior LLC.',
+      es: 'Acepto los <a href="https://mayorexcelsior.com/terms.html">Términos de Servicio</a> y la <a href="https://mayorexcelsior.com/privacy.html">Política de Privacidad</a> de Mayor Excelsior LLC.',
+    },
+    "quote-step-error": {
+      en: "Please select at least one contact method and agree to our Terms and Privacy Policy.",
+      es: "Por favor seleccione al menos un método de contacto y acepte nuestros Términos y Política de Privacidad.",
+    },
 
     /* FAQ header */
     "faq-eyebrow": { en: "Common Questions", es: "Preguntas frecuentes" },

@@ -788,6 +788,16 @@ h3 {
   gap: 9px;
 }
 
+.quote-required-step {
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  padding: 22px 20px;
+  box-shadow: var(--shadow);
+}
+
 .contact-preference-title {
   margin: 0;
   color: #2d3748;
@@ -822,6 +832,43 @@ h3 {
   color: #6d7784;
   font-size: 11px;
   font-weight: 600;
+  line-height: 1.45;
+}
+
+.terms-privacy-consent {
+  display: flex !important;
+  grid-template-columns: none !important;
+  align-items: flex-start;
+  gap: 10px !important;
+  color: #2d3748 !important;
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  line-height: 1.45;
+}
+
+.terms-privacy-consent input {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  min-height: 16px;
+  margin: 0.15rem 0 0;
+  padding: 0;
+  accent-color: var(--navy);
+}
+
+.terms-privacy-consent a {
+  color: var(--navy);
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 3px;
+}
+
+.quote-step-error {
+  margin: 0;
+  color: #b91c1c;
+  font-size: 0.9rem;
+  font-weight: 800;
   line-height: 1.45;
 }
 

@@ -512,13 +512,13 @@
       en: "For first-time residential clients, we may recommend a Deep Clean before recurring service.",
       es: "Para clientes residenciales nuevos, podemos recomendar una limpieza profunda antes del servicio recurrente.",
     },
-    "form-sms-consent": {
+    "contact-pref-title": { en: "How would you like to be contacted?", es: "¿Cómo prefieres que te contactemos?" },
+    "contact-pref-email": { en: "Email", es: "Correo electrónico" },
+    "contact-pref-sms": { en: "Text message (SMS)", es: "Mensaje de texto (SMS)" },
+    "contact-pref-whatsapp": { en: "WhatsApp", es: "WhatsApp" },
+    "contact-pref-sms-disclosure": {
       en: "I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg & data rates may apply.",
-      es: "Acepto recibir SMS de Mayor Excelsior LLC sobre servicios de limpieza y citas. La frecuencia de mensajes varía. Responde STOP para cancelar. Responde HELP para ayuda. Se pueden aplicar tarifas de mensajes y datos.",
-    },
-    "sms-a2p-note": {
-      en: "* By providing your phone number, you agree to receive SMS messages from Mayor Excelsior. Reply STOP to unsubscribe at any time. Reply HELP for help. Message and data rates may apply. Message frequency varies. View our Privacy Policy at mayorexcelsior.com/privacy.html and SMS Terms at mayorexcelsior.com/sms",
-      es: "* Al proporcionar su número de teléfono, acepta recibir mensajes SMS de Mayor Excelsior. Responda STOP para cancelar en cualquier momento. Responda HELP para ayuda. Pueden aplicarse tarifas de mensajes y datos. La frecuencia de mensajes varía. Vea nuestra Política de Privacidad en mayorexcelsior.com/privacy.html y Términos SMS en mayorexcelsior.com/sms",
+      es: "Acepto recibir mensajes SMS de Mayor Excelsior LLC sobre servicios de limpieza y citas. La frecuencia de mensajes varía. Responda STOP para cancelar. Responda HELP para ayuda. Pueden aplicarse tarifas.",
     },
 
     /* FAQ header */

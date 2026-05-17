@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260517-a2p2" />
+    <link rel="stylesheet" href="styles.css?v=20260517-contact-pref" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </head>
   <body>
@@ -1279,15 +1279,24 @@
               <p class="leadgate-disclaimer">
                 We'll send you a link to calculate your price instantly. We never share your information.
               </p>
-              <label class="sms-consent">
-                <input type="checkbox" name="sms_consent" value="yes" />
-                <span>
+              <div class="contact-preference" data-contact-preference>
+                <p class="contact-preference-title" data-lang="contact-pref-title">How would you like to be contacted?</p>
+                <label class="contact-preference-option">
+                  <input type="checkbox" name="contact_preference" value="email" />
+                  <span data-lang="contact-pref-email">Email</span>
+                </label>
+                <label class="contact-preference-option">
+                  <input type="checkbox" name="contact_preference" value="sms" />
+                  <span data-lang="contact-pref-sms">Text message (SMS)</span>
+                </label>
+                <label class="contact-preference-option">
+                  <input type="checkbox" name="contact_preference" value="whatsapp" />
+                  <span data-lang="contact-pref-whatsapp">WhatsApp</span>
+                </label>
+                <p class="contact-sms-disclosure" data-sms-disclosure data-lang="contact-pref-sms-disclosure" hidden>
                   I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg &amp; data rates may apply.
-                </span>
-              </label>
-              <p class="sms-a2p-note" data-lang="sms-a2p-note">
-                * By providing your phone number, you agree to receive SMS messages from Mayor Excelsior. Reply STOP to unsubscribe at any time. Reply HELP for help. Message and data rates may apply. Message frequency varies. View our Privacy Policy at mayorexcelsior.com/privacy.html and SMS Terms at mayorexcelsior.com/sms
-              </p>
+                </p>
+              </div>
             </form>
 
             <div class="leadgate-success" id="leadSuccess" style="display: none">
@@ -1402,15 +1411,24 @@
             <p class="form-disclaimer" data-lang="form-disclaimer">
               For first-time residential clients, we may recommend a Deep Clean before recurring service.
             </p>
-            <label class="sms-consent quote-sms-consent">
-              <input type="checkbox" name="sms_consent" value="yes" />
-              <span data-lang="form-sms-consent">
+            <div class="contact-preference" data-contact-preference>
+              <p class="contact-preference-title" data-lang="contact-pref-title">How would you like to be contacted?</p>
+              <label class="contact-preference-option">
+                <input type="checkbox" name="contact_preference" value="email" />
+                <span data-lang="contact-pref-email">Email</span>
+              </label>
+              <label class="contact-preference-option">
+                <input type="checkbox" name="contact_preference" value="sms" />
+                <span data-lang="contact-pref-sms">Text message (SMS)</span>
+              </label>
+              <label class="contact-preference-option">
+                <input type="checkbox" name="contact_preference" value="whatsapp" />
+                <span data-lang="contact-pref-whatsapp">WhatsApp</span>
+              </label>
+              <p class="contact-sms-disclosure" data-sms-disclosure data-lang="contact-pref-sms-disclosure" hidden>
                 I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg &amp; data rates may apply.
-              </span>
-            </label>
-            <p class="sms-a2p-note" data-lang="sms-a2p-note">
-              * By providing your phone number, you agree to receive SMS messages from Mayor Excelsior. Reply STOP to unsubscribe at any time. Reply HELP for help. Message and data rates may apply. Message frequency varies. View our Privacy Policy at mayorexcelsior.com/privacy.html and SMS Terms at mayorexcelsior.com/sms
-            </p>
+              </p>
+            </div>
             <p class="form-message" role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -1697,7 +1715,7 @@
       <span class="whatsapp-float-label" data-lang="float-wa-label">Chat with us</span>
     </a>
 
-    <script src="language-switcher.js?v=20260517-a2p2"></script>
+    <script src="language-switcher.js?v=20260517-contact-pref"></script>
     <script src="script.js?v=20260427-gallery"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -1713,7 +1731,9 @@
               email: document.getElementById('lg-email').value,
               phone: document.getElementById('lg-phone').value,
               service_interest: document.getElementById('lg-type').value,
-              sms_consent: leadForm.querySelector('[name="sms_consent"]').checked ? 'yes' : 'no'
+              contact_preference: Array.prototype.slice.call(leadForm.querySelectorAll('[name="contact_preference"]:checked')).map(function(input) {
+                return input.value;
+              }).join(', ')
             };
             emailjs.send('service_o81t3b8', 'template_d0282sq', formData)
               .then(function() {
@@ -1754,6 +1774,17 @@
             }
           });
         }
+
+        document.querySelectorAll('[data-contact-preference]').forEach(function(section) {
+          var smsInput = section.querySelector('[name="contact_preference"][value="sms"]');
+          var disclosure = section.querySelector('[data-sms-disclosure]');
+          if (!smsInput || !disclosure) return;
+          function updateSmsDisclosure() {
+            disclosure.hidden = !smsInput.checked;
+          }
+          smsInput.addEventListener('change', updateSmsDisclosure);
+          updateSmsDisclosure();
+        });
       });
     </script>
   </body>

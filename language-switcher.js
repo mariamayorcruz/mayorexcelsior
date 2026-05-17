@@ -454,6 +454,10 @@
       en: 'Prefer email? Write to <a href="mailto:mayorexcelsiorllc@gmail.com">mayorexcelsiorllc@gmail.com</a>.',
       es: '¿Prefieres correo? Escríbenos a <a href="mailto:mayorexcelsiorllc@gmail.com">mayorexcelsiorllc@gmail.com</a>.',
     },
+    "quote-sms-link": {
+      en: "Prefer to text? Text START to +1 (385) 284-4488",
+      es: "¿Prefieres por texto? Envía START al +1 (385) 284-4488",
+    },
     "quote-trust": {
       en: "Trusted by homes, offices, schools, and facilities across Salt Lake County, Utah County, and nearby communities.",
       es: "Hogares, oficinas, escuelas e instalaciones en Salt Lake County, Utah County y comunidades cercanas confían en nosotros.",
@@ -508,6 +512,14 @@
       en: "For first-time residential clients, we may recommend a Deep Clean before recurring service.",
       es: "Para clientes residenciales nuevos, podemos recomendar una limpieza profunda antes del servicio recurrente.",
     },
+    "form-sms-consent": {
+      en: "I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg & data rates may apply.",
+      es: "Acepto recibir SMS de Mayor Excelsior LLC sobre servicios de limpieza y citas. La frecuencia de mensajes varía. Responde STOP para cancelar. Responde HELP para ayuda. Se pueden aplicar tarifas de mensajes y datos.",
+    },
+    "sms-a2p-note": {
+      en: "* By providing your phone number, you agree to receive SMS messages from Mayor Excelsior. Reply STOP to unsubscribe at any time. Reply HELP for help. Message and data rates may apply. Message frequency varies. View our Privacy Policy at mayorexcelsior.com/privacy.html and SMS Terms at mayorexcelsior.com/sms",
+      es: "* Al proporcionar su número de teléfono, acepta recibir mensajes SMS de Mayor Excelsior. Responda STOP para cancelar en cualquier momento. Responda HELP para ayuda. Pueden aplicarse tarifas de mensajes y datos. La frecuencia de mensajes varía. Vea nuestra Política de Privacidad en mayorexcelsior.com/privacy.html y Términos SMS en mayorexcelsior.com/sms",
+    },
 
     /* FAQ header */
     "faq-eyebrow": { en: "Common Questions", es: "Preguntas frecuentes" },
@@ -549,6 +561,7 @@
     },
     "footer-terms": { en: "Terms of Service", es: "Términos del servicio" },
     "footer-privacy": { en: "Privacy Policy", es: "Política de privacidad" },
+    "footer-sms-optin": { en: "SMS Opt-in", es: "Opt-in SMS" },
     "footer-copy": {
       en: "© 2026 Mayor Excelsior LLC. All rights reserved. Utah, USA.",
       es: "© 2026 Mayor Excelsior LLC. Todos los derechos reservados. Utah, EE. UU.",

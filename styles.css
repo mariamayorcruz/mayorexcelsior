@@ -684,6 +684,27 @@ h3 {
   text-underline-offset: 4px;
 }
 
+.quote-sms {
+  margin: 0.55rem 0 0;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.quote-sms a {
+  display: inline-flex;
+  color: #1e7f80;
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-color: rgba(42, 175, 176, 0.45);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.quote-sms a:hover {
+  color: var(--navy);
+  text-decoration-color: var(--gold);
+}
+
 .quote-points {
   display: flex;
   flex-wrap: wrap;
@@ -760,6 +781,39 @@ h3 {
   font-size: 0.92rem;
   line-height: 1.5;
   font-weight: 600;
+}
+
+.sms-consent {
+  display: flex !important;
+  grid-template-columns: none !important;
+  align-items: flex-start;
+  gap: 10px !important;
+  color: var(--muted) !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  line-height: 1.45;
+}
+
+.sms-consent input {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  min-height: 16px;
+  margin: 0.14rem 0 0;
+  padding: 0;
+  accent-color: var(--navy);
+}
+
+.quote-sms-consent {
+  margin-top: -4px;
+}
+
+.sms-a2p-note {
+  margin: -6px 0 0;
+  color: #6d7784;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.45;
 }
 
 .quote-form-assurances {

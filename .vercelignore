@@ -1,0 +1,10 @@
+.git
+.chrome-*
+.edge-profile
+_faq_extract
+server.err.log
+server.out.log
+reference*.png
+review-*.png
+site-*.png
+*.log

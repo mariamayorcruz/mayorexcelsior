@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260427-gallery" />
+    <link rel="stylesheet" href="styles.css?v=20260517-a2p2" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </head>
   <body>
@@ -1279,6 +1279,15 @@
               <p class="leadgate-disclaimer">
                 We'll send you a link to calculate your price instantly. We never share your information.
               </p>
+              <label class="sms-consent">
+                <input type="checkbox" name="sms_consent" value="yes" />
+                <span>
+                  I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg &amp; data rates may apply.
+                </span>
+              </label>
+              <p class="sms-a2p-note" data-lang="sms-a2p-note">
+                * By providing your phone number, you agree to receive SMS messages from Mayor Excelsior. Reply STOP to unsubscribe at any time. Reply HELP for help. Message and data rates may apply. Message frequency varies. View our Privacy Policy at mayorexcelsior.com/privacy.html and SMS Terms at mayorexcelsior.com/sms
+              </p>
             </form>
 
             <div class="leadgate-success" id="leadSuccess" style="display: none">
@@ -1310,6 +1319,9 @@
             </p>
             <p class="quote-email" data-lang="quote-email-line" data-lang-html>
               Prefer email? Write to <a href="mailto:mayorexcelsiorllc@gmail.com">mayorexcelsiorllc@gmail.com</a>.
+            </p>
+            <p class="quote-sms">
+              <a href="sms:+13852844488?body=START" data-lang="quote-sms-link">Prefer to text? Text START to +1 (385) 284-4488</a>
             </p>
             <p class="quote-trust" data-lang="quote-trust">Trusted by homes, offices, schools, and facilities across Salt Lake County, Utah County, and nearby communities.</p>
             <div class="quote-points">
@@ -1389,6 +1401,15 @@
             </ul>
             <p class="form-disclaimer" data-lang="form-disclaimer">
               For first-time residential clients, we may recommend a Deep Clean before recurring service.
+            </p>
+            <label class="sms-consent quote-sms-consent">
+              <input type="checkbox" name="sms_consent" value="yes" />
+              <span data-lang="form-sms-consent">
+                I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg &amp; data rates may apply.
+              </span>
+            </label>
+            <p class="sms-a2p-note" data-lang="sms-a2p-note">
+              * By providing your phone number, you agree to receive SMS messages from Mayor Excelsior. Reply STOP to unsubscribe at any time. Reply HELP for help. Message and data rates may apply. Message frequency varies. View our Privacy Policy at mayorexcelsior.com/privacy.html and SMS Terms at mayorexcelsior.com/sms
             </p>
             <p class="form-message" role="status" aria-live="polite"></p>
           </form>
@@ -1648,6 +1669,7 @@
             <nav class="me-footer-nav" aria-label="Legal links">
               <a href="terms.html" data-lang="footer-terms">Terms of Service</a>
               <a href="privacy.html" data-lang="footer-privacy">Privacy Policy</a>
+              <a href="/sms" data-lang="footer-sms-optin">SMS Opt-in</a>
             </nav>
           </div>
         </div>
@@ -1675,7 +1697,7 @@
       <span class="whatsapp-float-label" data-lang="float-wa-label">Chat with us</span>
     </a>
 
-    <script src="language-switcher.js?v=20260427-gallery"></script>
+    <script src="language-switcher.js?v=20260517-a2p2"></script>
     <script src="script.js?v=20260427-gallery"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -1690,7 +1712,8 @@
               name: document.getElementById('lg-name').value,
               email: document.getElementById('lg-email').value,
               phone: document.getElementById('lg-phone').value,
-              service_interest: document.getElementById('lg-type').value
+              service_interest: document.getElementById('lg-type').value,
+              sms_consent: leadForm.querySelector('[name="sms_consent"]').checked ? 'yes' : 'no'
             };
             emailjs.send('service_o81t3b8', 'template_d0282sq', formData)
               .then(function() {

@@ -160,6 +160,11 @@
       en: "Bedroom, Living Room & Common Areas",
       es: "Habitaciones, sala y áreas comunes",
     },
+    "res-included-title": { en: "What's Included in Every Clean", es: "Qué Incluye Cada Limpieza" },
+    "res-included-note": {
+      en: "This checklist applies to all our residential services: Regular Cleaning, Deep Clean, and Move-Out Cleaning.",
+      es: "Este listado aplica para todos nuestros servicios residenciales: Limpieza Regular, Limpieza Profunda y Limpieza de Mudanza.",
+    },
     "res-room-1": { en: "Dust ceiling fans", es: "Limpiar ventiladores de techo" },
     "res-room-2": { en: "Remove cobwebs", es: "Remover telarañas" },
     "res-room-3": { en: "Wipe down blinds", es: "Limpiar persianas" },

@@ -4056,3 +4056,120 @@ textarea:focus,
   border-color: #C9A84C;
   box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.15);
 }
+
+/* Section color alternation */
+.commercial-section,
+.how-section,
+.gallery-section,
+.faq-section {
+  background: #FAFAF8 !important;
+  color: #0F1B2D;
+}
+
+.commercial-title,
+.commercial-space-card h3,
+.commercial-includes-title,
+.gallery-section .gallery-header h2,
+.gallery-title,
+.faq-title,
+.faq-question,
+.how-section h2,
+.how-section h3,
+.faq-section h2,
+.faq-section h3 {
+  color: #0F1B2D !important;
+}
+
+.commercial-subtitle,
+.commercial-space-card p,
+.commercial-include-item,
+.commercial-pricing-card p,
+.commercial-pricing-note,
+.commercial-cta p,
+.gallery-subtitle,
+.gallery-com-intro,
+.gallery-com-extra,
+.gallery-compare-hint,
+.faq-subtitle,
+.faq-answer,
+.faq-cta p,
+.how-section p {
+  color: #556070 !important;
+}
+
+.commercial-space-card,
+.commercial-includes,
+.commercial-pricing-card,
+.faq-item,
+.faq-tab-buttons {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(15, 27, 45, 0.08);
+}
+
+.commercial-space-card:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.commercial-space-card.featured {
+  background: rgba(201, 168, 76, 0.08);
+}
+
+.residential-section,
+.story-section,
+.quote-section {
+  background: #0D2748 !important;
+  color: #FFFFFF;
+}
+
+.residential-title,
+.res-card-header h3,
+.story-title,
+.story-closing strong,
+.story-value strong,
+.quote-section h2,
+.quote-section h3 {
+  color: #FFFFFF !important;
+}
+
+.residential-subtitle,
+.res-card-desc,
+.res-card-list li,
+.res-note-full,
+.res-base-note,
+.story-body,
+.story-body strong,
+.story-body em,
+.story-list li,
+.story-closing,
+.story-value p,
+.quote-section p,
+.quote-layout p,
+.quote-trust,
+.quote-points,
+.quote-form-assurances {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.quote-form {
+  background: #ffffff;
+  color: #0F1B2D;
+}
+
+.quote-form label,
+.quote-form .form-field,
+.quote-form p,
+.quote-form span,
+.contact-preference-title,
+.contact-preference-option,
+.terms-privacy-consent {
+  color: #0F1B2D !important;
+}
+
+.contact-sms-disclosure,
+.form-disclaimer {
+  color: #556070 !important;
+}
+
+.me-footer {
+  background: #080d18 !important;
+}

@@ -1276,103 +1276,6 @@
         </div>
       </div>
 
-      <section class="leadgate-section" id="estimate">
-        <div class="leadgate-inner">
-          <div class="leadgate-header">
-            <p class="leadgate-eyebrow">Free Instant Estimate</p>
-            <h2 class="leadgate-title">Want to Know the Price?</h2>
-            <p class="leadgate-subtitle">
-              Enter your info below and we'll send you access to our instant price calculator — no commitment required.
-            </p>
-          </div>
-
-          <div class="leadgate-card">
-            <div class="leadgate-benefits">
-              <div class="leadgate-benefit">
-                <span>⚡</span>
-                <p>Instant price range sent to your email</p>
-              </div>
-              <div class="leadgate-benefit">
-                <span>🔒</span>
-                <p>No spam. No commitment. Just your estimate.</p>
-              </div>
-              <div class="leadgate-benefit">
-                <span>📊</span>
-                <p>Residential and commercial pricing included</p>
-              </div>
-            </div>
-
-            <form class="leadgate-form" id="leadGateForm">
-              <input type="hidden" name="form_source" value="calculator_lead" />
-
-              <div class="leadgate-fields">
-                <div class="leadgate-field">
-                  <label for="lg-name">Full Name</label>
-                  <input type="text" id="lg-name" name="name" placeholder="Your name" required />
-                </div>
-                <div class="leadgate-field">
-                  <label for="lg-email">Email Address</label>
-                  <input type="email" id="lg-email" name="email" placeholder="your@email.com" required />
-                </div>
-                <div class="leadgate-field">
-                  <label for="lg-phone">Phone Number</label>
-                  <input type="tel" id="lg-phone" name="phone" placeholder="(385) 000-0000" required />
-                </div>
-                <div class="leadgate-field">
-                  <label for="lg-type">Service Type</label>
-                  <select id="lg-type" name="service_interest" required>
-                    <option value="" disabled selected>Select one</option>
-                    <option value="residential">Residential (Home)</option>
-                    <option value="commercial">Commercial (Business)</option>
-                    <option value="both">Both</option>
-                  </select>
-                </div>
-              </div>
-
-              <button type="submit" class="leadgate-submit">Send Me My Price Estimate</button>
-
-              <p class="leadgate-disclaimer">
-                We'll send you a link to calculate your price instantly. We never share your information.
-              </p>
-              <div class="contact-preference" data-contact-preference>
-                <p class="contact-preference-title" data-lang="contact-pref-title">How would you like to be contacted?</p>
-                <label class="contact-preference-option">
-                  <input type="checkbox" name="contact_preference" value="email" />
-                  <span data-lang="contact-pref-email">Email</span>
-                </label>
-                <label class="contact-preference-option">
-                  <input type="checkbox" name="contact_preference" value="sms" />
-                  <span data-lang="contact-pref-sms">Text message (SMS)</span>
-                </label>
-                <label class="contact-preference-option">
-                  <input type="checkbox" name="contact_preference" value="whatsapp" />
-                  <span data-lang="contact-pref-whatsapp">WhatsApp</span>
-                </label>
-                <p class="contact-sms-disclosure" data-sms-disclosure data-lang="contact-pref-sms-disclosure" hidden>
-                  I agree to receive SMS messages from Mayor Excelsior LLC about cleaning services and appointments. Message frequency varies. Reply STOP to unsubscribe. Reply HELP for help. Msg &amp; data rates may apply.
-                </p>
-              </div>
-            </form>
-
-            <div class="leadgate-success" id="leadSuccess" style="display: none">
-              <span class="leadgate-success-icon">✓</span>
-              <h3>Check your email!</h3>
-              <p>
-                We sent you a link to access your personalized price calculator. Check your inbox (and spam just in case).
-              </p>
-              <a
-                href="https://wa.me/13852807661?text=Hi%20I%20need%20a%20cleaning%20quote"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="leadgate-whatsapp"
-              >
-                Prefer to chat? WhatsApp us
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="quote" class="quote-section" aria-labelledby="quote-title">
         <div class="section-inner quote-layout">
           <div class="quote-intro">
@@ -1784,32 +1687,6 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         emailjs.init('4RyeC4vjnArv_tbGG');
-
-        // Lead gate form
-        var leadForm = document.getElementById('leadGateForm');
-        if (leadForm) {
-          leadForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            var formData = {
-              name: document.getElementById('lg-name').value,
-              email: document.getElementById('lg-email').value,
-              phone: document.getElementById('lg-phone').value,
-              service_interest: document.getElementById('lg-type').value,
-              contact_preference: Array.prototype.slice.call(leadForm.querySelectorAll('[name="contact_preference"]:checked')).map(function(input) {
-                return input.value;
-              }).join(', ')
-            };
-            emailjs.send('service_o81t3b8', 'template_d0282sq', formData)
-              .then(function() {
-                leadForm.style.display = 'none';
-                document.getElementById('leadSuccess').style.display = 'flex';
-              })
-              .catch(function(error) {
-                alert('Something went wrong. Please try again or contact us on WhatsApp.');
-                console.error(error);
-              });
-          });
-        }
 
         // Quote form
         var quoteForm = document.querySelector('#quote form');

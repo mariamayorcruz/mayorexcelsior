@@ -284,16 +284,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ── PRICING ENGINE ──
 const resPricing = {
-  standard: { low: 0.10, high: 0.15, min: 120 },
-  deep:     { low: 0.15, high: 0.25, min: 180 },
-  moveout:  { low: 0.18, high: 0.30, min: 200 }
+  standard: { low: 0.10, high: 0.12, min: 120 },
+  deep:     { low: 0.18, high: 0.25, min: 180 },
+  moveout:  { low: 0.22, high: 0.32, min: 200 }
 };
 
 const resFreqData = {
   onetime:  { mult: 1.00, label: 'One-Time',  visits: 1 },
-  weekly:   { mult: 0.88, label: 'Weekly',     visits: 4 },
-  biweekly: { mult: 0.93, label: 'Bi-Weekly',  visits: 2 },
-  monthly:  { mult: 0.97, label: 'Monthly',    visits: 1 }
+  weekly:   { mult: 1.00, label: 'Weekly',     visits: 4 },
+  biweekly: { mult: 1.00, label: 'Bi-Weekly',  visits: 2, low: 0.09, high: 0.11 },
+  monthly:  { mult: 1.00, label: 'Monthly',    visits: 1 }
 };
 
 const comFreqData = {
@@ -316,6 +316,19 @@ let currentResFreq = 'biweekly';
 let currentComFreq = 'weekly';
 let currentSqft    = 1500;
 
+const estimateNotes = {
+  en: 'This estimate is based on standard conditions. Final pricing may vary depending on the size, current condition, and specific needs of your space. We will confirm the exact price after speaking with you directly, no surprises and no commitment required.',
+  es: 'Este estimado está basado en condiciones estándar. El precio final puede variar según el tamaño, estado actual y necesidades específicas de tu espacio. Confirmamos el precio exacto después de hablar contigo directamente, sin sorpresas y sin compromiso.'
+};
+
+function getActiveLang() {
+  try {
+    return localStorage.getItem('me-lang') === 'es' ? 'es' : 'en';
+  } catch (e) {
+    return 'en';
+  }
+}
+
 function fmt(n)    { return '$' + Math.round(n).toLocaleString('en-US'); }
 function fmtR(n)   { return '$' + n.toFixed(2); }
 
@@ -325,8 +338,8 @@ function calcPrice() {
   if (currentType === 'residential') {
     const b = resPricing[currentService];
     const f = resFreqData[currentResFreq];
-    lowRate  = b.low  * f.mult;
-    highRate = b.high * f.mult;
+    lowRate  = currentService === 'standard' && f.low ? f.low : b.low * f.mult;
+    highRate = currentService === 'standard' && f.high ? f.high : b.high * f.mult;
     low  = Math.max(currentSqft * lowRate,  b.min);
     high = Math.max(currentSqft * highRate, b.min * 1.5);
     monthlyVisits = f.visits;
@@ -349,11 +362,10 @@ function calcPrice() {
 }
 
 function updateDisclaimer() {
+  document.getElementById('calcNote').textContent = estimateNotes[getActiveLang()];
   if (currentType === 'commercial') {
-    document.getElementById('calcNote').textContent = 'Estimated per visit. Final pricing confirmed during an on-site walkthrough.';
     document.getElementById('calcDisclaimer').textContent = 'Commercial prices are for reference only. Final scope and pricing will be confirmed the day we visit your space. Every commercial property is unique — condition, layout, and specific needs may affect the final quote. No charges without your approval.';
   } else {
-    document.getElementById('calcNote').textContent = 'Estimated per visit. Final pricing confirmed on the day of your cleaning.';
     document.getElementById('calcDisclaimer').textContent = 'Residential prices are for reference only. If you would like service right away, final pricing is confirmed on the day of your cleaning after our team reviews the condition of your home. No surprises — nothing is charged without your approval.';
   }
 }
